@@ -1,0 +1,18 @@
+Questions for reflection.
+=========================
+
+
+1. Did you do any online practice questions this week? If yes, which topics did
+you look at and why?
+no
+
+2. What is one error, bug, or exception that you encountered this week? How did
+you go about fixing it? Can you think of a way of making it easier to fix next
+time?
+the frogs were going partly over the right and bottom walls. To fix the bug I subtraced the frog's size from the wall when checking if the frog had reached the wall  
+
+3. What is one thing that you did in this assignment that is similar to previous
+ones? Was it easier this time? How did you approach doing it?
+using the colour picker to set colours was similar to the tricolor flag program. I did this in the same way as in tricolor flag program by using UI.setColor()
+
+4. If you have any other thoughts about the assignment please write them here.

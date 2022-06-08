@@ -1,0 +1,15 @@
+Questions for reflection.
+=========================
+
+
+1. Did you do any online practice questions this week? If yes, which topics did
+you look at and why?
+
+2. What is one error, bug, or exception that you encountered this week? How did
+you go about fixing it? Can you think of a way of making it easier to fix next
+time?
+
+3. What is one thing that you did in this assignment that is similar to previous
+ones? Was it easier this time? How did you approach doing it?
+
+4. If you have any other thoughts about the assignment please write them here.

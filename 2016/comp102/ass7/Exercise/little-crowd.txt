@@ -1,0 +1,5 @@
+blue 50 100
+green 170 100
+yellow 240 150
+blue 450 130
+green 200 340

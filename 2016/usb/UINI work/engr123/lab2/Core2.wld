@@ -1,0 +1,6 @@
+LeftOf(d,b)
+Triangle(d) /\Medium(d)
+E p(E q(Between(a,p,q)))
+A v(LeftOf(v,b)=>Medium(v))
+A v((Triangle(v)/\Medium(v))=>LeftOf(v,a))
+E p(E q(Between(a,p,q)/\Square(p)/\Square(q)))

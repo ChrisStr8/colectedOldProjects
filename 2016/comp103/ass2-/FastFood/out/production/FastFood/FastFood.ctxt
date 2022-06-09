@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FastFood()
+comment1.params=key
+comment1.target=void\ doKey(java.lang.String)
+comment2.params=
+comment2.target=void\ generateOrder()
+comment2.text=Creates\ a\ new\ order\ and\ puts\ it\ on\ the\ queue\ to\ be\ processed
+comment3.params=item
+comment3.target=void\ addItem(java.lang.String)
+comment3.text=\ As\ long\ as\ there\ is\ an\ order\ in\ the\ queue,\ adds\ the\ specified\r\n\ \ item\ to\ the\ order\ at\ the\ head\ of\ the\ queue,\r\n\ \ If\ adding\ the\ item\ fails\ (i.e.,\ it\ isn't\ one\ of\ the\ items\r\n\ \ that\ are\ wanted\ by\ the\ order)\ then\ the\ price\r\n\ \ of\ the\ item\ is\ deducted\ from\ the\ current\ balance.\r\n
+comment4.params=
+comment4.target=void\ deliverOrder()
+comment4.text=\ As\ long\ as\ there\ is\ an\ order\ at\ the\ front\ of\ the\ queue\ and\ it\ is\ ready,\r\n\ \ take\ the\ first\ order\ off\ the\ queue,\ compute\ the\ price\ of\ the\ order,\r\n\ \ and\ update\ the\ total\ balance\ by\ adding\ the\ order\ price.\r\n\ \ If\ there\ is\ not\ a\ ready\ order\ on\ the\ queue,\ it\ prints\ a\ warning\ message.\r\n
+comment5.params=
+comment5.target=void\ drawOrders()
+comment5.text=\ Draws\ the\ queue\ of\ orders\ on\ the\ Graphics\ pane.\r\n\ \ Also\ draws\ the\ current\ balance\ in\ the\ top\ left\ corner\r\n
+comment6.params=
+comment6.target=void\ initialiseMappings()
+comment7.params=
+comment7.target=void\ startGame()
+comment8.params=
+comment8.target=void\ run()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

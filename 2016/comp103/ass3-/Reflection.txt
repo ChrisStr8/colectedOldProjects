@@ -1,0 +1,23 @@
+/* Reflection.txt for COMP103
+ * Name:Christopher Straight
+ * Usercode: straigchri
+ * ID: 300363269
+ */
+
+For your reflection:
+====================
+
+Describe how far you got on this assignment. Please be specific about what you
+attempted (core, completion, challenge, and any finer-grained goals, if
+applicable). Please also state how successful you believe you were respectively.
+If there were any problems you got stuck on, what were they? 
+
+
+The Java collection library provides several different implementations of the
+Set type, including HashSet and TreeSet. Why does it not provide ArraySet?
+After all, Java provides the ArrayList implementation of the List type!
+
+ArraySet would take O(n) time to search because it is unordered. There is no reason to 
+use ArraySet rather than hash or tree set.  
+--------------------------------------------------------------------
+

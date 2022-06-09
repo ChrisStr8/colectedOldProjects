@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mondrian()
+comment1.params=
+comment1.target=void\ increaseLevel()
+comment1.text=\r\n\ Increases\ the\ level,\ up\ to\ a\ maximum\ of\ 9.\r\n
+comment2.params=
+comment2.target=void\ decreaseLevel()
+comment2.text=\r\n\ Decreases\ the\ level,\ up\ to\ a\ minimum\ of\ 0.\r\n
+comment3.params=
+comment3.target=void\ increaseChance()
+comment3.text=\r\n\ Increases\ the\ likelihood\ of\ creating\ a\ sub-Mondrian\r\n\ up\ to\ a\ maximum\ of\ 1.\r\n
+comment4.params=
+comment4.target=void\ decreaseChance()
+comment4.text=\r\n\ Decreases\ the\ likelihood\ of\ creating\ a\ sub-Mondrian\r\n\ up\ to\ a\ minimum\ of\ 0.\r\n
+comment5.params=
+comment5.target=java.awt.Color\ randomMondrianColour()
+comment5.text=\r\n\ @return\ a\ random\ Mondrian\ colour.\r\n
+comment6.params=x1\ y1\ x2\ y2\ currentLevel
+comment6.target=void\ drawMondrian(int,\ int,\ int,\ int,\ int)
+comment6.text=\ \r\n\ Draws\ a\ Mondrian\ within\ a\ frame\ specified\ by\r\n\ the\ coordinates\ (x1,\ y1)\ and\ (x2,\ y2).\r\n\ \r\n\ Always\ fills\ the\ specified\ frame\ with\ one\ (random)\ Mondrian\ colour.\r\n\ \r\n\ Generates\ a\ split\ point\ within\ the\ frame\ to\ potentially\ \r\n\ draw\ further\ sub-Mondrians.\ The\ split\ point\ is\ within\ a\ subframe\ that\ \r\n\ is\ centred\ in\ the\ original\ frame\ with\ margins\ extending\ from\ 25%-75%\r\n\ of\ the\ original\ frame.\ \r\n\ \r\n\ Only\ draws\ the\ dividing\ black\ lines\ and\ further\ sub-Mondrians,\ if\ all\ of\ the\ following\ hold\:\r\n\ \ \ \ 1.\ the\ currentLevel\ is\ not\ zero\ yet.\ \r\n\ \ \ \ 2.\ the\ filled\ rectangle\ has\ no\ sides\ that\ are\ smaller\ than\ MondrianSideMinimum.\r\n\ \ \ \ 3.\ the\ chance\ of\ creating\ a\ sub-Mondrian\ is\ >\ 0%.\r\n\ \r\n
+comment7.params=
+comment7.target=void\ drawMondrian()
+comment7.text=\r\n\ Paints\ a\ Mondrian\ painting\ by\ drawing\ the\ outer\ frame\ and\r\n\ calling\ drawMondrian.\r\n\ \r\n
+comment8.params=arguments
+comment8.target=void\ main(java.lang.String[])
+numComments=9

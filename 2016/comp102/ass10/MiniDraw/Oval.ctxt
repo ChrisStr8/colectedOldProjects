@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=x\ y\ wd\ ht\ col
+comment0.target=Oval(double,\ double,\ double,\ double,\ java.awt.Color)
+comment0.text=\ Constructor\ with\ explicit\ values\r\n\ \ Arguments\ are\ the\ x\ and\ y\ of\ the\ top\ left\ corner,\r\n\ \ the\ width\ and\ height,\ and\ the\ color.\ \ \r\n
+comment1.params=description
+comment1.target=Oval(java.lang.String)
+comment1.text=\ [Completion]\ Constructor\ which\ reads\ values\ from\ a\ String\r\n\ \ that\ contains\ the\ specification\ of\ the\ Oval.\ \r\n\ \ The\ format\ of\ the\ String\ is\ determined\ by\ the\ toString\ method.\r\n\ \ \ \ \ The\ first\ 3\ integers\ specify\ the\ color;\r\n\ \ \ \ \ the\ following\ four\ numbers\ specify\ the\ position\ and\ the\ size.\r\n
+comment2.params=u\ v
+comment2.target=boolean\ on(double,\ double)
+comment2.text=Returns\ true\ if\ the\ point\ (u,\ v)\ is\ on\ top\ of\ the\ shape
+comment3.params=dx\ dy
+comment3.target=void\ moveBy(double,\ double)
+comment3.text=\ Changes\ the\ position\ of\ the\ shape\ by\ dx\ and\ dy.\r\n\ \ If\ it\ was\ positioned\ at\ (x,\ y),\ it\ will\ now\ be\ at\ (x+dx,\ y+dy)\r\n
+comment4.params=
+comment4.target=void\ redraw()
+comment4.text=\ Draws\ the\ oval\ on\ the\ graphics\ pane.\ \r\n\ \ It\ draws\ a\ black\ border\ and\ fills\ it\ with\ the\ color\ of\ the\ oval.\r\n
+comment5.params=changeWd\ changeHt
+comment5.target=void\ resize(double,\ double)
+comment5.text=\ [Completion]\ Changes\ the\ width\ and\ height\ of\ the\ shape\ by\ the\r\n\ \ specified\ amounts.\r\n\ \ The\ amounts\ may\ be\ negative,\ which\ means\ that\ the\ shape\r\n\ \ should\ get\ smaller,\ at\ least\ in\ that\ direction.\r\n\ \ The\ shape\ should\ never\ become\ smaller\ than\ 1\ pixel\ in\ width\ or\ height\r\n\ \ The\ center\ of\ the\ shape\ should\ remain\ the\ same.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Returns\ a\ string\ description\ of\ the\ oval\ in\ a\ form\ suitable\ for\r\n\ \ writing\ to\ a\ file\ in\ order\ to\ reconstruct\ the\ oval\ later\r\n\ \ The\ first\ word\ of\ the\ string\ must\ be\ Oval\ \r\n
+numComments=7

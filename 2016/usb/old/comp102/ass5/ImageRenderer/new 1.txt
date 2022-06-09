@@ -1,0 +1,16 @@
+int r = 0;
+                int g = 0;
+                int b = 0;
+                /**if (colour.length() == 3){
+                    r = Integer.parseInt(colour.substring(0,1));
+                    g = Integer.parseInt(colour.substring(1,2));
+                    b = Integer.parseInt(colour.substring(2,3));
+                }else if (colour.length() == 2){
+                    r = Integer.parseInt(colour.substring(0,1));
+                    g = Integer.parseInt(colour.substring(1,2));
+                }else if(colour.length() == 1){
+                    r = Integer.parseInt(colour.substring(0,1));
+                }*/
+                UI.println("R: "+r);
+                UI.println("G: "+g);
+                UI.println("B: "+b);

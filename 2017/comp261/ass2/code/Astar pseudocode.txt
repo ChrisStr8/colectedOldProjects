@@ -1,0 +1,22 @@
+PriorityQueue open
+ArrayList closed
+add start node to open
+
+current = start
+while open is not empty
+    current = node in open with lowest cost(top item in open)
+    remove current from open
+    add current to closed
+
+    if current = goal
+        exit while loop
+
+    foreach neighbour of current
+        if neighbour is not in closed closed
+            if new path to neighbour is shorter than old path or neighbour is not in open
+                set new cost of path in neighbour
+                set parent of neighbour to current
+                if neighbour is not in open
+                    add neighbour to open
+
+retrace path

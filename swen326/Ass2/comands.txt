@@ -1,0 +1,16 @@
+eor: exclusive or
+out: store register to I/O location (output?)
+ldi: load immediate
+rjmp:
+st_x_inc:
+cpi: Compare with Immediate
+cpc: Compare with Carry
+brne: branch if not equal
+rcall: relative call to subroutine
+ret: return from subroutine
+sbrs: set bits in register
+asr: arithmetic shift right
+ror: Rotate Right through Carry
+subi: Subtract Immediate
+push: Push Register on Stack
+brsh: Branch if Same or Higher (Unsigned)

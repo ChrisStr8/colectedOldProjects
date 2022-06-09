@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AdventureGame()
+comment0.text=Construct\ a\ new\ AdventureGame\ object\ and\ initialise\ the\ interface
+comment1.params=
+comment1.target=void\ doList()
+comment1.text=List\ the\ items\ in\ the\ player's\ pack
+comment10.params=
+comment10.target=void\ initialiseGame()
+comment10.text=\ Intialise\ all\ the\ pods\ in\ the\ game\ and\ the\ player\r\n\ \ YOU\ DO\ NOT\ NEED\ TO\ USE\ THIS\ METHOD\ -\ YOU\ CAN\ REPLACE\ IT\ WITH\ YOUR\ OWN\r\n\ \ The\ code\ provided\ is\ a\ pretty\ simple\ initialisation\ process.\r\n\ \ It\ makes\ assumptions\ about\ the\ constructors\ and\ some\ methods\ for\ other\ classes.\r\n\ \ You\ will\ need\ to\ change\ it\ if\ it\ doesn't\ fit\ with\ the\ rest\ of\ your\ design\r\n\ \ It\ reads\ the\ pod\ descriptions\ from\ the\ game-data.txt\ file,\ and\ connects\r\n\ \ them\ in\ a\ circle,\ with\ random\ cross-links.\ \r\n\ \ It\ then\ reads\ descriptions\ of\ the\ traps\ (and\ the\ items\ that\ disable\ them),\r\n\ \ \ makes\ Trap\ objects\ and\ Item\ objects,\r\n\ \ \ puts\ the\ Traps\ and\ the\ items\ in\ random\ pods\ \r\n\ \ Puts\ a\ torch\ Item\ into\ one\ of\ the\ pods\r\n\ \ Makes\ a\ player\r\n\ \ Assumes\ constructors\ for\ Pod,\ Player,\ Item,\ and\ Trap\r\n\ \ Assumes\ allPods\ field,\ and\ several\ methods\ on\ traps,\ pods,\ and\ items\r\n\ \ \ You\ will\ need\ to\ modify\ the\ code\ if\ you\ have\ different\ constructors\ and\ methods.\r\n
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=num
+comment2.target=void\ goPortal(int)
+comment2.text=Exit\ the\ current\ pod\ going\ through\ the\ specified\ portal\ number
+comment3.params=
+comment3.target=void\ doLook()
+comment3.text=Look\ around\ at\ the\ pod\ and\ report\ what's\ there\ (except\ for\ datacache)
+comment4.params=
+comment4.target=void\ doSearch()
+comment4.text=\ Search\ for\ the\ data\ cache,\ and\ pick\ it\ up\ if\ it\ is\ found.\r\n\ \ If\ the\ player\ has\ a\ torch,\ then\ there\ is\ a\ higher\ probability\ of\r\n\ \ finding\ the\ datacache\ (assuming\ it\ is\ in\ the\ pod)\ than\ if\ the\ player\r\n\ \ doesn't\ have\ a\ torch.\r\n
+comment5.params=
+comment5.target=void\ doPickUp()
+comment5.text=\ Attempt\ to\ pick\ up\ an\ item\ from\ the\ pod\ and\ put\ it\ in\ the\ pack.\r\nIf\ item\ makes\ the\ pack\ too\ heavy,\ then\ puts\ the\ item\ back\ in\ the\ pod
+comment6.params=
+comment6.target=void\ doPutDown()
+comment6.text=Attempt\ to\ put\ down\ an\ item\ from\ the\ pack.
+comment7.params=
+comment7.target=void\ doDisable()
+comment7.text=\ Attempt\ to\ disable\ the\ trap\ in\ the\ current\ pod.\r\n\ If\ there\ is\ no\ such\ trap,\ or\ it\ is\ already\ disabled,\ return\ immediately.\r\n\ If\ disabling\ the\ trap\ with\ the\ players\ current\ pack\ of\ items\ doesn't\ work,\r\n\ \ the\ player\ is\ damaged.\ If\ their\ health\ is\ now\ <\=0,\ then\ the\ game\ is\ over\r\n
+comment8.params=
+comment8.target=void\ useRecoveryKit()
+comment8.text=\ If\ there\ is\ a\ recovery\ kit\ in\ the\ pod\ that\ hasn't\ been\ already\ used\ on\r\n\ \ this\ visit,\ then\ use\ it\ (increase\ the\ player's\ health)\ and\ remember\ that\r\n\ \ the\ kit\ has\ now\ been\ used.\r\n
+comment9.params=
+comment9.target=boolean\ checkTrap()
+comment9.text=\ Check\ if\ there\ is\ an\ active\ trap.\ If\ so,\ set\ it\ off\ and\ damage\ the\ player.\r\n\ \ Returns\ true\ if\ the\ player\ got\ damaged.\ \r\n
+numComments=12

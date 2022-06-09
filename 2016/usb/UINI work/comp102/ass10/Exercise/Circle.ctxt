@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Circle(double,\ double)
+comment0.text=Construct\ a\ new\ Circle\ object
+comment1.params=x\ y
+comment1.target=void\ setPos(double,\ double)
+comment1.text=move\ the\ circle\ to\ the\ specified\ position
+comment2.params=x\ y
+comment2.target=boolean\ on(double,\ double)
+comment2.text=returns\ true\ if\ the\ point\ x,y\ is\ on\ the\ circle
+comment3.params=
+comment3.target=void\ redraw()
+comment3.text=Draw\ the\ circle\ at\ its\ current\ position
+numComments=4

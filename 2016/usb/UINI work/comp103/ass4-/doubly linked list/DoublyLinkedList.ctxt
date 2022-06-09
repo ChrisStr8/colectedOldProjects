@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DoublyLinkedList()
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment2.params=
+comment2.target=int\ size()
+comment3.params=item
+comment3.target=void\ add(java.lang.Object)
+comment4.params=
+comment4.target=java.util.ListIterator\ iterator()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

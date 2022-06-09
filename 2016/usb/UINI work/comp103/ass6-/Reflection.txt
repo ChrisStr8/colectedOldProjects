@@ -1,0 +1,22 @@
+/* Reflection.txt for COMP103
+ * Name:
+ * Usercode:
+ * ID:
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+
+* Did you notice a difference in speed of the application compared to the one of assignment 3? Where does the speed difference come from?
+
+* What did you observe comparing the height of the tree, both after loading the dictionary words and after removing the bad words? How do you explain this result? 
+
+* What is the numerical difference between the height of the tree you observed and the theoretical minimum? State the number and briefly comment on how much it affects the search speed.
+
+----------------------------------------------------------------
+

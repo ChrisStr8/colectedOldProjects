@@ -1,0 +1,103 @@
+Name: Christopher Straight
+Usercode: straigchri
+ID: 300363269
+
+description
+My program dose sll of minimum, core, and completion. It also dose all the challenge
+sections except "Takes into account intersection constraints such as traffic lights
+to prefer routes with fewer lights."
+
+path cost and heuristic
+The path cost is the is calculated from the gCost plus the heuristic.
+The gCost variable in the Node class. The gCost is based on the gCost of its parent
+Node plus the length of the segment connecting to the parent node, the start node
+has gCost 0.
+The heuristic is the euclidean distance from the current node to the end node.
+
+testing
+When coding the program, I frequently tested to see if it complied and find what I
+needed to change. When I finished implementing a feature I thoroughly tested all the
+previously implemented features to find any bugs I might have coursed.
+
+
+A* pseudo-code
+
+PriorityQueue open
+ArrayList closed
+add start node to open
+
+current = start
+while open is not empty
+    current = node in open with lowest cost(top item in open)
+    remove current from open
+    add current to closed
+
+    if current = goal
+        exit while loop
+
+    foreach neighbour of current
+        if neighbour is not in closed closed
+            if new path to neighbour is shorter than old path or neighbour is not in open
+                set new cost of path in neighbour
+                set parent of neighbour to current
+                if neighbour is not in open
+                    add neighbour to open
+
+retrace path
+
+----------------------------------------------------------------------------
+
+Articulation points pseudo-code
+
+Set notVisited
+Set articulationPoints
+
+for each node in the graph
+    set node.count to infinity
+    add node to notVisited
+
+while notVisited is not empty
+    start = the first node in notVisited
+    remove start for notVisited
+    set start.count to 0
+    int numSubtrees = 0
+    for each neighbour of start
+        if count = infinity
+            findArticulationPoints(neighbour, start)
+            add 1 to numSubtrees
+
+    if numSubtrees is greater than 1
+        add start to articulationPoints
+
+
+findArticulationPoints(start, root)
+    add start to nodes
+    add 1 to counts
+    add root to fromNodes
+    while nodes is not empty
+        current = nodes.peek
+        count = counts.peek
+        fromNode = fromNodes.peek
+        if current.count is infinity
+            set current.count to count
+            set current.reachBack to count
+            set current.children to a new queue
+            for each neighbour of current
+                if neighbour is not fromNode
+                    add neighbour to current.children
+        else if current.children is not empty
+            child = current.children.poll
+            if child.count is less than infinity
+                current.reachBack = the smallest out of current.reachBack and child.count
+            else
+                add  child to nodes
+                add count+1 to counts
+                add current to fromNodes
+        else
+            if current is not start
+                if current.reachBack is less than or equal to fromNode.count
+                    add fromNode to articulationPoints
+                fromNode.reachBack = the smallest out of current.reachBack and fromNode.reachBack
+
+----------------------------------------------------------------------------
+

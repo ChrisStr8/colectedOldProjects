@@ -1,0 +1,232 @@
+___UDUDU__RLRLR___ULDR
+
+===============================================
+sokoban.hex (90.45% instructions, 85.71% branches)
+===============================================
+0000 [*] rjmp 0xe
+ ... 
+000F [*] eor r1, r1
+0010 [*] out 0x3f, r1
+0011 [*] ldi r28, 0x5f
+0012 [*] ldi r29, 0x2
+0013 [*] out 0x3e, r29
+0014 [*] out 0x3d, r28
+0015 [*] ldi r17, 0x0
+0016 [*] ldi r26, 0x60
+0017 [*] ldi r27, 0x0
+0018 [*] ldi r30, 0x5a
+0019 [*] ldi r31, 0x3
+001A [*] rjmp 0x2
+001B [*] lpm_z_inc r0
+001C [*] st_x_inc r0
+001D [*] cpi r26, 0x9e
+001E [*] cpc r27, r17
+001F [*] brne 0xfffffffb	<<<<<<<<<<<<<<<<<<<< (0)
+0020 [*] ldi r18, 0x1
+0021 [*] ldi r26, 0x9e
+0022 [*] ldi r27, 0x0
+0023 [*] rjmp 0x1
+0024 [*] st_x_inc r1
+0025 [*] cpi r26, 0x26
+0026 [*] cpc r27, r18
+0027 [*] brne 0xfffffffc	<<<<<<<<<<<<<<<<<<<< (1)
+0028 [*] rcall 0x118
+0029 [ ] rjmp 0x181
+ ... 
+002F [*] ldi r18, 0x8
+0030 [*] ldi r19, 0x0
+0031 [*] ldi r20, 0x4
+0032 [*] ldi r21, 0x5
+0033 [*] out 0x18, r1
+0034 [*] sbrs r24	<<<<<<<<<<<<<<<<<<<< (2)
+0035 [*] rjmp 0x7
+0036 [*] out 0x18, r21
+0037 [*] asr r25
+0038 [*] ror r24
+0039 [*] subi r18, 0x1
+003A [*] sbc r19, r1
+003B [*] brne 0xfffffff7	<<<<<<<<<<<<<<<<<<<< (3)
+003C [*] ret
+003D [*] out 0x18, r20
+003E [*] rjmp 0xfffffff8
+ ... 
+00CD [*] push r14
+00CE [*] push r15
+00CF [*] push r16
+00D0 [*] push r17
+00D1 [*] push r28
+00D2 [*] push r29
+00D3 [*] ldi r17, 0x0
+00D4 [*] ldi r16, 0x0
+00D5 [*] ldi r29, 0x0
+00D6 [*] ldi r28, 0x0
+00D7 [*] rjmp 0x1c
+00D8 [*] lds r24, 0x9e
+00DA [*] lds r25, 0x9f
+00DC [*] cp r24, r16
+00DD [*] cpc r25, r17
+00DE [*] brne 0x18	<<<<<<<<<<<<<<<<<<<< (4)
+00DF [*] lds r24, 0x122
+00E1 [*] lds r25, 0x123
+00E3 [*] cp r24, r14
+00E4 [*] cpc r25, r15
+00E5 [*] brne 0x11	<<<<<<<<<<<<<<<<<<<< (5)
+00E6 [*] ser r24
+00E7 [*] ldi r25, 0x0
+00E8 [*] rcall 0xffffff46
+00E9 [*] ser r24
+00EA [*] sub r14, r24
+00EB [*] sbc r15, r24
+00EC [*] ldi r24, 0x8
+00ED [*] cp r14, r24
+00EE [*] cpc r15, r1
+00EF [*] brne 0xffffffe8	<<<<<<<<<<<<<<<<<<<< (6)
+00F0 [*] adiw r28, 0x1
+00F1 [*] cpi r28, 0x8
+00F2 [*] cpc r29, r1
+00F3 [*] breq 0x1c	<<<<<<<<<<<<<<<<<<<< (7)
+00F4 [*] mov r15, r1
+00F5 [*] mov r14, r1
+00F6 [*] rjmp 0xffffffe1
+00F7 [*] lds r24, 0xa0
+00F9 [*] lds r25, 0xa1
+00FB [*] cp r24, r16
+00FC [*] cpc r25, r17
+00FD [*] brne 0xf	<<<<<<<<<<<<<<<<<<<< (8)
+00FE [*] lds r24, 0x124
+0100 [*] lds r25, 0x125
+0102 [*] cp r24, r14
+0103 [*] cpc r25, r15
+0104 [*] brne 0x8	<<<<<<<<<<<<<<<<<<<< (9)
+0105 [*] sbiw r28, 0x0
+0106 [*] breq 0xffffffdf	<<<<<<<<<<<<<<<<<<<< (10)
+0107 [*] ldi r24, 0x81
+0108 [*] ldi r25, 0x0
+0109 [*] cpi r28, 0x7
+010A [*] cpc r29, r1
+010B [*] brne 0xffffffdc	<<<<<<<<<<<<<<<<<<<< (11)
+010C [*] rjmp 0xffffffd9
+010D [*] ldi r25, 0x0
+010E [*] ldi r24, 0x0
+010F [*] rjmp 0xffffffd8
+0110 [*] subi r16, 0xff
+0111 [*] sbci r17, 0xff
+0112 [*] cpi r16, 0x8
+0113 [*] cpc r17, r1
+0114 [*] breq 0x1	<<<<<<<<<<<<<<<<<<<< (12)
+0115 [*] rjmp 0xffffffbf
+0116 [*] pop r29
+0117 [*] pop r28
+0118 [*] pop r17
+0119 [*] pop r16
+011A [*] pop r15
+011B [*] pop r14
+011C [*] ret
+ ... 
+0129 [*] ldi r24, 0xf
+012A [*] out 0x17, r24
+012B [*] out 0x18, r1
+012C [*] ldi r24, 0x4
+012D [*] ldi r25, 0x0
+012E [*] sts_data_wide r25, 0x123
+0130 [*] sts_data_wide r24, 0x122
+0132 [*] sts_data_wide r25, 0x9f
+0134 [*] sts_data_wide r24, 0x9e
+0136 [*] ldi r24, 0x1
+0137 [*] ldi r25, 0x0
+0138 [*] sts_data_wide r25, 0x125
+013A [*] sts_data_wide r24, 0x124
+013C [*] sts_data_wide r25, 0xa1
+013E [*] sts_data_wide r24, 0xa0
+0140 [*] ret
+0141 [*] rcall 0xffffffe7
+0142 [*] inr24, 0x16
+0143 [*] andi r24, 0x3a
+0144 [*] subi r24, 0x2
+0145 [*] sbc r25, r25
+0146 [*] cpi r24, 0x1f
+0147 [*] cpc r25, r1
+0148 [*] brlo 0x1	<<<<<<<<<<<<<<<<<<<< (13)
+0149 [*] rjmp 0x53
+014A [*] movw r30, r24
+014B [*] subi r30, 0x81
+014C [*] sbci r31, 0xff
+014D [*] ld_z r18
+014E [*] mov r0, r18
+014F [*] add r0, r0
+0150 [*] sbc r19, r19
+0151 [*] subi r24, 0xa0
+0152 [*] sbci r25, 0xff
+0153 [*] movw r30, r24
+0154 [*] ld_z r24
+0155 [*] mov r0, r24
+0156 [*] add r0, r0
+0157 [*] sbc r25, r25
+0158 [*] lds r22, 0x122
+015A [*] lds r23, 0x123
+015C [*] add r22, r18
+015D [*] adc r23, r19
+015E [*] cpi r22, 0x8
+015F [*] cpc r23, r1
+0160 [*] brsh 0x32	<<<<<<<<<<<<<<<<<<<< (14)
+0161 [*] lds r20, 0x9e
+0163 [*] lds r21, 0x9f
+0165 [*] add r20, r24
+0166 [*] adc r21, r25
+0167 [*] cpi r20, 0x8
+0168 [*] cpc r21, r1
+0169 [*] brsh 0x29	<<<<<<<<<<<<<<<<<<<< (15)
+016A [*] lds r26, 0x124
+016C [*] lds r27, 0x125
+016E [*] cp r26, r22
+016F [*] cpc r27, r23
+0170 [*] brne 0x31	<<<<<<<<<<<<<<<<<<<< (16)
+0171 [*] lds r30, 0xa0
+0173 [*] lds r31, 0xa1
+0175 [*] cp r30, r20
+0176 [*] cpc r31, r21
+0177 [*] brne 0x2a	<<<<<<<<<<<<<<<<<<<< UNCOVERED (17)
+0178 [ ] add r18, r26
+0179 [ ] adc r19, r27
+017A [ ] cpi r18, 0x8
+017B [ ] cpc r19, r1
+017C [ ] brsh 0x15	<<<<<<<<<<<<<<<<<<<< UNCOVERED (18)
+017D [ ] add r24, r30
+017E [ ] adc r25, r31
+017F [ ] cpi r24, 0x8
+0180 [ ] cpc r25, r1
+0181 [ ] brsh 0x10	<<<<<<<<<<<<<<<<<<<< UNCOVERED (19)
+0182 [ ] sts_data_wide r27, 0x123
+0184 [ ] sts_data_wide r26, 0x122
+0186 [ ] sts_data_wide r31, 0x9f
+0188 [ ] sts_data_wide r30, 0x9e
+018A [ ] sts_data_wide r19, 0x125
+018C [ ] sts_data_wide r18, 0x124
+018E [ ] sts_data_wide r25, 0xa1
+0190 [ ] sts_data_wide r24, 0xa0
+0192 [*] rcall 0xffffff3a
+0193 [*] ser r31
+0194 [*] ldi r18, 0x70
+0195 [*] ldi r24, 0x2
+0196 [*] subi r31, 0x1
+0197 [*] sbci r18, 0x0
+0198 [*] sbci r24, 0x0
+0199 [*] brne 0xfffffffc	<<<<<<<<<<<<<<<<<<<< (20)
+019A [*] rjmp 0x0
+019B [*] nop
+019C [*] rjmp 0xffffffa5
+019D [*] ldi r25, 0x0
+019E [*] ldi r24, 0x0
+019F [*] ldi r19, 0x0
+01A0 [*] ldi r18, 0x0
+01A1 [*] rjmp 0xffffffb6
+01A2 [*] sts_data_wide r23, 0x123
+01A4 [*] sts_data_wide r22, 0x122
+01A6 [*] sts_data_wide r21, 0x9f
+01A8 [*] sts_data_wide r20, 0x9e
+01AA [*] rjmp 0xffffffe7
+01AB [ ] cli
+01AC [ ] rjmp 0xffffffff
+ ... 
+Instruction Coverage = 199 / 220(8192)
+Branch Coverage = 18 / 21

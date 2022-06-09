@@ -1,0 +1,27 @@
+/* Reflection.txt for COMP103
+ * Name:Christopher Straight
+ * Usercode:straigchri
+ * ID:300363269
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+
+I completed core, completion and challenge. I got stuck on the addChildrenFromNode() method. at first I wrote working code to move the children from the donor node to the children of the reciver, however I later relised that what I 
+needed to do was move the donor node into the children of the reciver. when I wrote code to move the donor node it did nothing, when I checked through my code again I relised that I had the lines targetNode.remove(); and 
+destinationNode.addChildrenFromNode(targetNode); the wrong way round in moveSubtree() 
+
+* When you load in the same taxonomy from the file over and over again, you may notice that some times the tree is displayed differently. Why?
+
+because the tree is a general tree there is no order to the children of a node so sometimes they will load in a diffrent order.
+
+
+* In the inSubtree(...) method used in the completion, we try to ensure that if a node is moved (along with it's subtree), then it isn't moved into it's own subtree. Discuss two problems that could occur if we allowed a node (along with it's subtree) to become a child of one of the nodes in that subtree.
+
+alowing a node to become a child of its sub tree could create an infinite loop in the tree so searching through the tree could cause stackoverflow or it could simply remove the subtree as there would nolonger be a conection to the root.
+----------------------------------------------------------------

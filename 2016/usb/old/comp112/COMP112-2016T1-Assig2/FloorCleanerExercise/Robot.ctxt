@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Robot(double,\ double)
+comment0.text=\r\n\ Creates\ a\ new\ robot\ at\ the\ specified\ position\ and\ a\ random\ direction.\r\n\ remembers\ the\ arguments\ in\ the\ robot's\ fields.\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Move\ the\ robot\ one\ unit\ in\ the\ current\ direction.\r\n\ Work\ out\ where\ it\ should\ move\ to.\r\n\ Check\ if\ it\ would\ be\ over\ the\ edge,\ if\ so,\ don't\ move\ it,\ but\ just\ change\r\n\ its\ direction\ to\ a\ random\ new\ direction.\r\n\ otherwise,\ move\ it.\r\n\ You\ wrote\ all\ the\ code\ for\ this\ last\ week;\ you\ just\ have\ to\ modify\ it\ a\ little.\r\n\ Note\ that\ you\ can\ access\ the\ constants\ in\ the\ FloorCleaner\ class\ using\ the\r\n\ class\ name\ and\ the\ constant\ name,\ eg\ \ \ FloorCleaner.Right.\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Draw\ the\ robot\ as\ a\ red\ circle\r\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\r\n\ Erase\ the\ robot\r\n
+numComments=4

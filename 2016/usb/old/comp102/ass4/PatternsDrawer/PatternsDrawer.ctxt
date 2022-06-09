@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ drawGridBoard()
+comment0.text=\ Draw\ a\ square\ grid\ board\ with\ white\ squares.\r\n\ \ Asks\ the\ user\ for\ the\ number\ of\ squares\ on\ each\ side\r\n\r\n\ CORE\r\n
+comment1.params=
+comment1.target=void\ drawIllusion()
+comment1.text=\ Illusion\r\n\ a\ pattern\ that\ makes\ dark\ circles\ appear\ in\ the\ intersections\r\n\ when\ you\ look\ at\ it.\ \r\n
+comment2.params=
+comment2.target=void\ drawCheckersBoard()
+comment2.text=\ Draw\ a\ checkered\ board\ with\ alternating\ black\ and\ white\ squares\r\n\ \ \ \ Asks\ the\ user\ for\ the\ number\ of\ squares\ on\ each\ side\r\n\r\n\ COMPLETION\r\n
+comment3.params=
+comment3.target=void\ drawConcentricBoard()
+comment3.text=\ Draw\ a\ board\ made\ of\ concentric\ circles,\ 2\ pixel\ apart\r\n\ \ Asks\ the\ user\ for\ the\ number\ of\ squares\ on\ each\ side\r\n
+comment4.params=
+comment4.target=PatternsDrawer()
+comment4.text=----------\ The\ code\ below\ is\ already\ written\ for\ you\ ----------\ *
+numComments=5

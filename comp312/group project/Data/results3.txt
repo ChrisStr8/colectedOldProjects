@@ -1,0 +1,12 @@
+# heading:  last ten minutes of data capture
+# observer: paul
+# filename: res3
+# date:     Tue Apr 04, 2017 at 11:48:41  v1.26
+42521.871000  begin
+42523.805000  a
+42528.029000  d
+42529.277000  a
+42532.983000  a
+42541.661000  d
+42627.551000  d
+42702.363000  end

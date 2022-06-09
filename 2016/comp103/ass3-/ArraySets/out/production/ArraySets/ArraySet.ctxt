@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArraySet()
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ @return\ the\ number\ of\ items\ in\ the\ set\r\n
+comment2.params=item
+comment2.target=boolean\ add(java.lang.Object)
+comment2.text=\r\n\ \ Adds\ the\ specified\ item\ to\ this\ set\r\n\ \ (if\ it\ is\ not\ already\ in\ the\ set).\r\n\ \ Will\ not\ add\ a\ null\ value\ (throws\ an\ IllegalArgumentException\ in\ this\ case).\r\n\r\n\ \ @param\ item\ the\ item\ to\ be\ added\ to\ the\ set\r\n\ \ @return\ true\ if\ the\ collection\ changes,\ and\ false\ if\ it\ did\ not\ change.\r\n
+comment3.params=item
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=\r\n\ @return\ true\ if\ this\ set\ contains\ the\ specified\ item.\r\n\r\n
+comment4.params=item
+comment4.target=boolean\ remove(java.lang.Object)
+comment4.text=\r\n\ \ Removes\ an\ item\ matching\ a\ given\ item.\r\n\ \ @return\ true\ if\ the\ item\ was\ present\ and\ then\ removed.\r\n\ \ Makes\ no\ changes\ to\ the\ set\ and\ returns\ false\ if\ the\ item\ is\ not\ present.\r\n
+comment5.params=
+comment5.target=void\ ensureCapacity()
+comment5.text=\r\n\r\n\ Ensures\ data\ array\ has\ sufficient\ capacity\ (length)\r\n\ to\ accomodate\ a\ new\ item\r\n
+comment6.params=item
+comment6.target=int\ findIndexOf(java.lang.Object)
+comment6.text=\r\n\ \ Finds\ the\ index\ of\ an\ item\ in\ the\ dataarray.\r\n\ \ Assumes\ that\ the\ item\ is\ not\ null.\r\n\r\n\ \ @return\ the\ index\ of\ the\ item,\ or\ -1\ if\ not\ present\r\n
+comment7.params=
+comment7.target=java.util.Iterator\ iterator()
+comment7.text=\ \r\n\ @return\ an\ iterator\ over\ the\ items\ in\ this\ set.\ \r\n\ \r\n
+numComments=8

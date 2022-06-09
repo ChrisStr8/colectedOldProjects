@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ animateFromFile()
+comment0.text=\ animateFromFile\ opens\ a\ script\ file,\ and\ reads\ the\ names\ and\ intial\ positions\r\n\ \ of\ the\ two\ characters\ from\ the\ first\ two\ lines\ of\ the\ file.\r\n\ \ It\ then\ creates\ two\ CartoonCharacter\ objects,\ using\ the\ names\ as\ the\r\n\ \ imageNames\ and\ places\ them\ on\ the\ window.\r\n\ \ It\ then\ has\ a\ loop\ to\ read\ each\ instruction\ from\ the\ script\ file\:\r\n\ \ Each\ instruction\ starts\ with\ the\ name\ of\ the\ character,\ followed\ by\r\n\ \ a\ command\:\ \ lookLeft,\ lookRight,\ smile,\ frown,\ walk,\ or\ speak\r\n\ \ If\ the\ command\ is\ walk,\ it\ must\ be\ followed\ by\ a\ single\ integer\r\n\ \ (the\ distance\ to\ walk).\r\n\ \ If\ the\ command\ is\ speak,\ it\ must\ be\ followed\ by\ some\ words\ to\ say.\r\n\ \ The\ method\ then\ calls\ the\ command\ on\ the\ correct\ CartoonCharacter\ object.\r\n\ \ The\ loop\ will\ exit\ when\ there\ are\ no\ more\ instructions.\r\n
+comment1.params=
+comment1.target=CartoonAnimator()
+comment1.text=Constructor\:\ set\ up\ user\ interface
+comment2.params=arguments
+comment2.target=void\ main(java.lang.String[])
+numComments=3

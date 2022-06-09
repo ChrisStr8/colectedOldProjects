@@ -1,0 +1,6 @@
+Triangle(d) /\Medium(d)
+Triangle(d) =>Medium(d)
+SameCol(a,b)
+SameRow(a,b)
+SameRow(a,e)
+~Triangle(d)\/Medium(d)

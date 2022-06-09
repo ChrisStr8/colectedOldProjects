@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SortedArraySet()
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\ \r\n\ @return\ the\ number\ of\ items\ in\ the\ set\ \ \r\n
+comment2.params=item
+comment2.target=boolean\ add(java.lang.Comparable)
+comment2.text=\ \r\n\ \ Adds\ the\ specified\ item\ to\ this\ set\ \r\n\ \ (if\ it\ is\ not\ already\ in\ the\ set).\r\n\ \ Will\ not\ add\ a\ null\ value\ (throws\ an\ IllegalArgumentException\ in\ this\ case).\r\n\ \ \r\n\ \ @param\ item\ the\ item\ to\ be\ added\ to\ the\ set\r\n\ \ @return\ true\ if\ the\ collection\ changes,\ and\ false\ if\ it\ did\ not\ change.\r\n
+comment3.params=item
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=\ \r\n\ @return\ true\ if\ this\ set\ contains\ the\ specified\ item.\r\n\ \ \ \ \ \ \ \ \r\n
+comment4.params=item
+comment4.target=boolean\ remove(java.lang.Object)
+comment4.text=\ \r\n\ \ Removes\ an\ item\ matching\ a\ given\ item.\r\n\ \ @return\ true\ if\ the\ item\ was\ present\ and\ then\ removed.\r\n\ \ Makes\ no\ changes\ to\ the\ set\ and\ returns\ false\ if\ the\ item\ is\ not\ present.\r\n
+comment5.params=
+comment5.target=void\ ensureCapacity()
+comment5.text=\ \r\n\ \r\n\ Ensures\ data\ array\ has\ sufficient\ capacity\ (length)\r\n\ to\ accomodate\ a\ new\ item\ \r\n
+comment6.params=item
+comment6.target=int\ findIndexOf(java.lang.Comparable)
+comment6.text=\ \r\n\ \ Finds\ the\ index\ of\ where\ an\ item\ is\ in\ the\ dataarray,\r\n\ \ (or\ where\ it\ ought\ to\ be,\ if\ it's\ not\ there).\r\n\ \ Assumes\ that\ the\ item\ is\ not\ null.\r\n\ \ \r\n\ \ Uses\ binary\ search\ and\ requires\ that\ the\ items\ are\ kept\ in\ order.\r\n\ \ Uses\ the\ "compareTo()"\ method\ to\ compare\ two\ items\ with\ each\ other,\ e.g.,\ as\ in\r\n\ \ "item1.compareTo(item2)",\ resulting\ in\ \r\n\ \ 0,\ if\ the\ items\ are\ equal,\r\n\ \ a\ value\ lower\ than\ 0,\ if\ item1\ is\ smaller\ than\ item2,\r\n\ \ a\ value\ greater\ than\ 0,\ if\ item1\ is\ greater\ than\ item2.\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ @return\ the\ index\ of\ the\ item,\ or\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ index\ where\ it\ should\ be\ inserted,\ if\ it\ is\ not\ present\ \ \ \ \ \ \ \r\n
+comment7.params=
+comment7.target=java.util.Iterator\ iterator()
+comment7.text=\ \r\n\ @return\ an\ iterator\ over\ the\ items\ in\ this\ set.\ \r\n\ \r\n
+numComments=8

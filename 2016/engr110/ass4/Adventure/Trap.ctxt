@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=trapName\ itemsForTrap
+comment0.target=Trap(java.lang.String,\ java.util.ArrayList)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Trap\r\n
+comment1.params=pack
+comment1.target=boolean\ disable(java.util.ArrayList)
+comment1.text=\r\n\r\n
+comment2.params=
+comment2.target=boolean\ isActive()
+comment2.text=\r\n\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\r\n
+comment4.params=
+comment4.target=void\ getItems()
+numComments=5

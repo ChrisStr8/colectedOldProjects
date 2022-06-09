@@ -1,0 +1,24 @@
+Questions for reflection.
+=========================
+
+
+1. Did you do any online practice questions this week? If yes, which topics did
+you look at and why?
+I completed all the questions because I had time to do them, and decided I should.
+
+2. What is one error, bug, or exception that you encountered this week? How did
+you go about fixing it? Can you think of a way of making it easier to fix next
+time?
+when rotating my image 180 degrees, I found that my code only moved the top and bottom
+quartres were moved. This was because I was only going through half the height and 
+width of the aray. I fixed the code to go through the whole aray. I also had to change the
+code for rotating the image to make it work.
+
+3. What is one thing that you did in this assignment that is similar to previous
+ones? Was it easier this time? How did you approach doing it?
+iterating through the image arays was similar to the domino game in the last assingment.
+The dificulty was about the same as the domino game, although it required nested for 
+loops because it was a 2d aray.
+
+4. If you have any other thoughts about the assignment please write them here.
+no other thoughts.

@@ -1,0 +1,13 @@
+version: '2.4'
+
+services:
+
+    rbgang:
+      # jdbc:postgresql://localhost:54333/rbg?user=u&amp;password=p
+      container_name: rbgang
+      ports:
+        - "54333:5432"
+      image: postgres:13-alpine
+      env_file: rb.env
+      healthcheck:
+        test: "exit 0"

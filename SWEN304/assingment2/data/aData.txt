@@ -1,0 +1,18 @@
+0	Default Name   	Default Surname
+2	Pavle          	Mogin          
+3	Ramez          	Elmasri        
+4	Shamkant       	Navathe        
+5	Ivan           	Lukovic        
+6	Miro           	Govedarica     
+7	Michael        	Stonebraker    
+8	Donald         	Moore          
+9	William        	Inmon          
+1	Toby           	Teorey         
+22	Peter          	Andreae        
+10	Donald         	Ullman         
+11	Elliot         	Koffman        
+12	Ursula         	Woltz          
+13	Raghu          	Ramakrishnan   
+14	Johannes       	Gehrke         
+15	Cris           	Date           
+16	Hugh           	Darwen

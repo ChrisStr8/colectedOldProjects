@@ -1,0 +1,29 @@
+/* Reflection.txt for COMP103
+ * Name:Christopher Straight
+ * Usercode:straigchri
+ * ID:300363269
+ */
+
+--------------------------------------------------------------------
+Time spent to the nearest hour on FastFood: 7
+Time spent to the nearest hour on Sokoban: 4
+
+Please do answer on the corresponding LINE, not below or above the
+line as it would make the extraction of the data more difficult.
+--------------------------------------------------------------------
+
+For your reflection:
+====================
+
+Describe how far you got. If there was a problem you got stuck on, what was that problem?
+I completed up to chalange on FastFood and core on Sokoban. in sokaban undoing a push was malfunctioning, when I
+called pull to undo a push it would move the worker in the wrong direction. I was stuck there for a while because 
+it looked as pull was reversing the direction as it needed to so I thought the error must be eleewhere. eventualy I 
+relised that I needed to reverse the direction input into pull. 
+
+
+Reading and understanding someone else's code is difficult. What elements of Sokoban made it easier or made it more difficult for you to understand? Can you identify things that you would do or avoid doing if you were trying to make your own code easily understood by someone else?
+the coments made it easier to understand and the layout of the methods was clear, however it was less clear what setps each method took. 
+
+--------------------------------------------------------------------
+

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=A\ p\ q\ r
+comment0.target=void\ merge(java.util.ArrayList,\ int,\ int,\ int)
+comment1.params=A\ p\ r
+comment1.target=void\ mergeSort(java.util.ArrayList,\ int,\ int)
+comment2.params=array
+comment2.target=void\ sort(java.lang.String[])
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

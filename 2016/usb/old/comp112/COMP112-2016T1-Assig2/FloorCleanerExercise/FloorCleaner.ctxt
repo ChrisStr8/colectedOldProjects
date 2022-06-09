@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ cleanFloor()
+comment0.text=\r\n\ cleanFloor\ is\ the\ main\ simulation\ loop.\r\n\ draws\ floor,\r\n\ makes\ a\ new\ robot,\ and\ draws\ it\r\n\ loops\ forever\:\r\n\ \ erase\ robot,\ move\ robot,\ draw\ robot,\ sleeping\ briefly\r\n
+comment1.params=arguments
+comment1.target=void\ main(java.lang.String[])
+comment1.text=Create\ a\ new\ FloorCleaner\ object\ and\ call\ cleanFloor.
+numComments=2

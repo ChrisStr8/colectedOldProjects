@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ size()
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment2.params=
+comment2.target=java.lang.Comparable\ peek()
+comment2.text=\r\n\ Returns\ the\ element\ with\ the\ top\ priority\ in\ the\ queue.\ \r\n\ \r\n\ HINT\:\ This\ is\ like\ 'poll()'\ without\ the\ removal\ of\ the\ element.\ \r\n\ \r\n\ @return\ the\ next\ element\ if\ present,\ or\ 'null'\ if\ the\ queue\ is\ empty.\r\n
+comment3.params=
+comment3.target=java.lang.Comparable\ poll()
+comment3.text=\r\n\ Removes\ the\ element\ with\ the\ top\ priority\ from\ the\ queue\ and\ returns\ it.\r\n\ \r\n\ HINT\:\ The\ 'data'\ array\ should\ contain\ a\ heap\ so\ the\ element\ with\ the\ top\ priority\r\n\ sits\ at\ index\ '0'.\ After\ its\ removal,\ you\ need\ to\ restore\ the\ heap\ property\ again,\r\n\ using\ 'sinkDownFromIndex(...)'.\r\n\ \r\n\ @return\ the\ next\ element\ in\ the\ queue,\ or\ 'null'\ if\ the\ queue\ is\ empty.\r\n
+comment4.params=element
+comment4.target=boolean\ offer(java.lang.Comparable)
+comment4.text=\r\n\ Enqueues\ an\ element.\r\n\ \r\n\ If\ the\ element\ to\ be\ added\ is\ 'null',\ it\ is\ not\ added.\ \r\n\ \r\n\ HINT\:\ Make\ use\ of\ 'ensureCapacity'\ to\ make\ sure\ that\ the\ array\ can\ \r\n\ accommodate\ one\ more\ element.\ \r\n\ \r\n\ @param\ element\ -\ the\ element\ to\ be\ added\ to\ the\ queue\r\n\ \r\n\ @return\ true,\ if\ the\ element\ could\ be\ added\r\n
+comment5.params=nodeIndex
+comment5.target=void\ sinkDownFromIndex(int)
+comment6.params=nodeIndex
+comment6.target=void\ bubbleUpFromIndex(int)
+comment7.params=from\ to
+comment7.target=void\ swap(int,\ int)
+comment7.text=\r\n\ Swaps\ two\ elements\ in\ the\ supporting\ array.\r\n
+comment8.params=
+comment8.target=void\ ensureCapacity()
+comment8.text=\r\n\ \ Increases\ the\ size\ of\ the\ supporting\ array,\ if\ necessary\r\n
+comment9.params=
+comment9.target=java.util.Iterator\ iterator()
+numComments=10

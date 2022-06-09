@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Order()
+comment1.params=
+comment1.target=boolean\ isReady()
+comment1.text=\ \r\n\ \ The\ order\ is\ ready\ as\ long\ as\ every\ item\ that\ is\r\n\ \ wanted\ is\ also\ ready.\r\n
+comment2.params=item
+comment2.target=boolean\ addItemToOrder(java.lang.String)
+comment2.text=\ \r\n\ \ If\ the\ item\ is\ wanted\ but\ not\ already\ in\ the\ order,\r\n\ \ then\ put\ it\ in\ the\ order\ and\ return\ true,\ to\ say\ it\ was\ successful.\r\n\ \ If\ the\ item\ not\ wanted,\ or\ is\ already\ in\ the\ order,\r\n\ \ then\ return\ false\ to\ say\ it\ failed.\r\n
+comment3.params=
+comment3.target=double\ getPrice()
+comment3.text=\ \r\n\ \ Computes\ and\ returns\ the\ price\ of\ an\ order.\r\n\ \ [CORE]\:\ Uses\ constants\:\ 2.50\ for\ fish,\ 1.50\ for\ chips,\ 5.00\ for\ burger\r\n\ \ to\ add\ up\ the\ prices\ of\ each\ item\r\n\ \ [COMPLETION]\:\ Uses\ a\ map\ of\ prices\ to\ look\ up\ prices\r\n
+comment4.params=y
+comment4.target=void\ draw(int)
+numComments=5

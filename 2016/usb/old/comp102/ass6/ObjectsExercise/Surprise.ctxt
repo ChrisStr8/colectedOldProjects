@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=wd
+comment0.target=Surprise(java.lang.String)
+comment0.text=\ Constructor\:\ \n\ Stores\ the\ word\ it\ is\ passed\ in\ the\ field\n
+comment1.params=
+comment1.target=void\ sayBoo()
+comment1.text=\ sayBoo\ method\n\ Prints\ out\ "Boo\ "\ followed\ by\ the\ stored\ word\n
+numComments=2

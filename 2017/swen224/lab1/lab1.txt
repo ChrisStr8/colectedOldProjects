@@ -1,0 +1,52 @@
+﻿//activity 1
+
+automata {
+    Car = (green -> go -> red -> stop -> Car).
+}
+
+automata {
+    TLred = (red -> TLred | turnGreen -> TLGreen),
+    TLGreen = (green -> TLGreen | tuneRed -> TLred).
+}
+
+automata {
+    Car2 = (green -> (go -> (stop -> Car2 | red -> stop -> Car2) | stop -> Car2)).
+}
+
+//activity 2
+
+//a)
+automata {
+    VendingMachineA = (coin -> (coffeeBtn -> CoffeeBtn | teaBtn -> TeaBtn)),
+    CoffeeBtn = (coffee -> STOP),
+    TeaBtn = (tea -> STOP).
+}
+
+//b)
+automata {
+    VendingMachineB = (coin -> (coffeeBtn -> CoffeeBtn | teaBtn -> TeaBtn)),
+    CoffeeBtn = (coffee -> VendingMachineB),
+    TeaBtn = (tea -> VendingMachineB).
+}
+
+//c)
+automata {
+    VendingMachineC = (coin -> (coffeeBtn -> CoffeeBtn | teaBtn -> TeaBtn)),
+    CoffeeBtn = (coffee -> VendingMachineC),
+    TeaBtn = (coffee -> VendingMachineC | coin -> coffee -> VendingMachineC).
+}
+
+//activity 3
+
+//1. Lift2 is more realistic. in Lift1 the door only closes when someone has 
+//entered, in Lift2 the door can close whenever.
+
+//a)
+automata {
+    Lift3 = (doorOpen -> Open | goUPbtn -> Move),
+    Open = (doorClose -> Lift3 | enter -> Open),
+    Move = (move -> Lift3).
+}
+
+
+visualiser_json_layout:{"elements":{"nodes":[{"data":{"id":"Lift3","label":"Lift3","isParent":true,"interrupts":0},"position":{"x":511.60752012505634,"y":152.8636244310951},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n0","label":0,"type":"fsaStartState","parent":"Lift3"},"position":{"x":468.23680957711895,"y":234.5896954571401},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n1","label":1,"type":"fsaState","parent":"Lift3"},"position":{"x":640.8384634363547,"y":149.85496555471244},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n2","label":2,"type":"fsaState","parent":"Lift3"},"position":{"x":382.376576813758,"y":67.63755340505008},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""}],"edges":[{"data":{"id":"Lift3nLift3.n0-doorOpen->Lift3nLift3.n1","label":"doorOpen","source":"Lift3nLift3.n0","target":"Lift3nLift3.n1","parent":"Lift3"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n1-doorClose->Lift3nLift3.n0","label":"doorClose","source":"Lift3nLift3.n1","target":"Lift3nLift3.n0","parent":"Lift3"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n1-enter->Lift3nLift3.n1","label":"enter","source":"Lift3nLift3.n1","target":"Lift3nLift3.n1","parent":"Lift3"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n0-goUPbtn->Lift3nLift3.n2","label":"goUPbtn","source":"Lift3nLift3.n0","target":"Lift3nLift3.n2","parent":"Lift3"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"Lift3nLift3.n2-move->Lift3nLift3.n0","label":"move","source":"Lift3nLift3.n2","target":"Lift3nLift3.n0","parent":"Lift3"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""}]},"style":[{"selector":"node","style":{"background-color":"#BDC3C7","label":"data(label)","text-valign":"center","text-halign":"center","font-size":"15px","font-weight":"bold","border-width":"3px","width":"label","height":"label","padding":"10px"}},{"selector":"node[type = \"fsaStartState\"]","style":{"border-style":"double","background-color":"#3498DB","border-width":"10px"}},{"selector":"node[type = \"fsaEndState\"]","style":{"border-style":"double","background-color":"#2ECC71","border-width":"10px"}},{"selector":"node[type = \"fsaErrorState\"]","style":{"border-style":"double","background-color":"#C0392b","border-width":"10px"}},{"selector":":parent","style":{"background-opacity":"0.333","text-valign":"top","color":"#000000"}},{"selector":"edge","style":{"width":"3px","line-color":"black","label":"data(label)","curve-style":"bezier","font-size":"15px","font-weight":"bold","target-arrow-color":"black","target-arrow-shape":"triangle","text-background-opacity":"1","text-background-color":"#ffffff","text-background-shape":"rectangle","text-rotation":"autorotate"}}],"zoomingEnabled":true,"userZoomingEnabled":true,"zoom":1.113042193267523,"minZoom":1e-50,"maxZoom":1e+50,"panningEnabled":true,"userPanningEnabled":true,"pan":{"x":51.17949432585953,"y":83.52650054980731},"boxSelectionEnabled":true,"renderer":{"name":"canvas"}}

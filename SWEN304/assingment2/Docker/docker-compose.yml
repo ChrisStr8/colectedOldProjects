@@ -1,0 +1,13 @@
+version: '2.4'
+
+services:
+
+    swen304ass2:
+      # jdbc:postgresql://localhost:54334/swen304ass2?user=u&amp;password=p
+      container_name: swen304ass2
+      ports:
+        - "54334:5432"
+      image: postgres:13-alpine
+      env_file: swen304ass2.env
+      healthcheck:
+        test: "exit 0"

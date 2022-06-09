@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=x\ y\ wd\ ht\ col
+comment0.target=Rectangle(double,\ double,\ double,\ double,\ java.awt.Color)
+comment0.text=\ Constructor\ with\ explicit\ values\n\ \ Arguments\ are\ the\ x\ and\ y\ of\ the\ top\ left\ corner,\n\ \ the\ width\ and\ height,\ and\ the\ color.\ \n
+comment1.params=description
+comment1.target=Rectangle(java.lang.String)
+comment1.text=\ [Completion]\ Constructor\ which\ reads\ values\ from\ a\ String\n\ \ that\ contains\ the\ specification\ of\ the\ Rectangle.\ \n\ \ The\ format\ of\ the\ String\ is\ determined\ by\ the\ toString\ method.\n\ \ \ \ \ The\ first\ 3\ integers\ specify\ the\ color;\n\ \ \ \ \ the\ following\ four\ numbers\ specify\ the\ position\ and\ the\ size.\n
+comment2.params=u\ v
+comment2.target=boolean\ on(double,\ double)
+comment2.text=Returns\ true\ if\ the\ point\ (u,\ v)\ is\ on\ top\ of\ the\ shape
+comment3.params=dx\ dy
+comment3.target=void\ moveBy(double,\ double)
+comment3.text=\ Changes\ the\ position\ of\ the\ shape\ by\ dx\ and\ dy.\n\ \ If\ it\ was\ positioned\ at\ (x,\ y),\ it\ will\ now\ be\ at\ (x+dx,\ y+dy)\n
+comment4.params=
+comment4.target=void\ redraw()
+comment4.text=\ Draws\ the\ rectangle\ on\ the\ graphics\ pane.\ \n\ \ It\ draws\ a\ black\ border\ and\ fills\ it\ with\ the\ color\ of\ the\ rectangle.\n
+comment5.params=changeWd\ changeHt
+comment5.target=void\ resize(double,\ double)
+comment5.text=\ [Completion]\ Changes\ the\ width\ and\ height\ of\ the\ shape\ by\ the\n\ \ specified\ amounts.\n\ \ The\ amounts\ may\ be\ negative,\ which\ means\ that\ the\ shape\n\ \ should\ get\ smaller,\ at\ least\ in\ that\ direction.\n\ \ The\ shape\ should\ never\ become\ smaller\ than\ 1\ pixel\ in\ width\ or\ height\n\ \ The\ center\ of\ the\ shape\ should\ remain\ the\ same.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Returns\ a\ string\ description\ of\ the\ rectangle\ in\ a\ form\ suitable\ for\n\ \ writing\ to\ a\ file\ in\ order\ to\ reconstruct\ the\ rectangle\ later\n\ \ The\ first\ word\ of\ the\ string\ must\ be\ Rectangle\ \n
+numComments=7

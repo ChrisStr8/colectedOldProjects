@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name\ val
+comment0.target=Tile(java.lang.String,\ int)
+comment0.text=Construct\ a\ new\ Tile\ object
+comment1.params=
+comment1.target=int\ value()
+comment1.text=\r\n\ Return\ the\ value\ of\ the\ tile\r\n
+comment2.params=x\ y
+comment2.target=void\ draw(double,\ double)
+comment2.text=\r\n\ Draw\ the\ tile\r\n
+comment3.params=other
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=equals\ method\:\ \ tiles\ are\ equal\ if\ they\ have\ the\ same\ letter
+numComments=4

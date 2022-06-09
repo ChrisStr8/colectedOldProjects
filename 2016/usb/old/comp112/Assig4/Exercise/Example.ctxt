@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=void\ readFile(java.lang.String)
+comment0.text=\r\n\ This\ method\ prints\ out\ each\ token\ in\ a\ file,\ one\ per\ line\r\n\ But\ highlights\ integers\ by\ putting\ **\ \ **\ \ around\ them\r\n
+comment1.params=fileName
+comment1.target=void\ makeFile(java.lang.String)
+comment1.text=\r\n\ This\ method\ creates\ a\ file\ containing\ a\ list\ of\ 100\ random\ numbers\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=For\ testing
+numComments=3

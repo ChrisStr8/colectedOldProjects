@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BallDrop()
+comment0.text=\n\ Construct\ a\ new\ BallDrop\ object,\ setting\ up\ the\ GUI\ (the\ two\ buttons)\n
+comment1.params=
+comment1.target=void\ doDrop()
+comment1.text=\n\ Drop\ a\ ball\ from\ a\ random\ position\ along\ the\ top\ of\ the\ graphics\ pane.\n
+comment2.params=arguments
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Main\ method\ that\ is\ called\ on\ the\ class,\ rather\ than\ on\ an\ object\n
+numComments=3

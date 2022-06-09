@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Arrow
+  - sonic
+  - chicken
+  - invisible
+  - rapidFire
+  - shield
+  - vampire
+  - baby
+  - fireshoes
+  - goldenDrunk
+  - superSpeed
+  - supperSpeed
+  - doubleDamage
+  - PowerUp
+  - wall
+  - Sword
+  - Fire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerFront
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 2474604697
+    locked: 0
+  - name: DeathLayer
+    uniqueID: 2174985785
+    locked: 0
+  - name: PlayerLayer
+    uniqueID: 2629705811
+    locked: 0
+  - name: TopLayer
+    uniqueID: 3217958663
+    locked: 0
+  - name: CrossbowLayer
+    uniqueID: 1911118855
+    locked: 0
+  - name: ArrowLayer
+    uniqueID: 3968958381
+    locked: 0

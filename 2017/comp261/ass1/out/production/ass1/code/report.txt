@@ -1,0 +1,20 @@
+
+Name: Christopher Straight
+Usercode: straigchri
+ID: 300363269
+
+Functionality
+The program loads the given file types and draws a map from the data, including polygon data when provided. the map can be panned and zoomed by the mouse and the buttons in the GUI class. Scrolling with the mouse zooms the map and right clicking centres the map on the mouse. Left
+clicking highlights a nearby node and connected roads, the roads names are printed at the bottom of the window. When the user enters characters into the search box, all words starting with those characters are printed at the bottom of the window and highlighted on the map.
+
+Important data structures
+To store the nodes and roads the program uses hash maps with integers as keys.
+The road segments are stored by their roads and the nodes they connect with. 
+The road segments are also stored by an array list in the AucklandMaps class.
+polygons are stored in an array list. 
+A trie structure is used to store road IDs sot that the roads can be looked up in their hash map.
+Array lists are used to store nodes and roads that will be highlighted when drawing the map.
+
+Testing
+When coding the program, I frequently tested to see if it complied and find what I needed to change. When I finished implementing a feature I thoroughly tested all the previously implemented features to find any bugs I might have coursed.  
+

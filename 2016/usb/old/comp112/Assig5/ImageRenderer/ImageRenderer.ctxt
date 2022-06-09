@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ImageRenderer()
+comment1.params=
+comment1.target=void\ renderAFile()
+comment2.params=fname
+comment2.target=void\ renderImage(java.lang.String)
+comment2.text=\n\ Renders\ a\ pnm\ image\ file\ with\ the\ given\ name.\n\ Renders\ the\ image\ at\ position\ (left,\ top).\n\ Each\ pixel\ of\ the\ image\ is\ rendered\ by\ a\ square\ of\ size\ pixelSize\n\ The\ first\ three\ tokens\ (other\ than\ comments)\ are\n\ \ \ \ the\ magic\ number\ (P1,\ P2,\ or\ P3),\n\ \ \ \ number\ of\ columns,\ (integer)\n\ \ \ \ number\ of\ rows,\ \ (integer)\n\ ppm\ and\ pgm\ files\ then\ have\ \n\ \ \ \ colour\ depth\ \ (integer\:\ range\ of\ possible\ color\ values)\n\ The\ remaining\ tokens\ are\ the\ pixel\ values\n\ \ (0\ or\ 1\ for\ pbm,\ single\ integer\ for\ pgm;\ red,\ green,\ and\ blue\ integers\ for\ ppm)\n\ There\ may\ be\ comments\ anywhere\ in\ the\ file,\ which\ start\ with\ \#\ and\ go\ to\ the\ end\ of\ the\ line.\ Comments\ should\ be\ ignored.\n\ The\ image\ may\ be\ "animated",\ in\ which\ case\ the\ file\ contains\ a\ sequence\ of\ images\n\ (ideally,\ but\ not\ necessarily,\ the\ same\ type\ and\ size),\ which\ should\ be\ rendered\n\ in\ sequence.\n\ This\ method\ should\ read\ the\ magic\ number\ then\ call\ the\ appropriate\ method\ for\ rendering\ the\ rest\ of\ the\ image\n
+comment3.params=fname\ scan
+comment3.target=void\ renderpbm(java.lang.String,\ java.util.Scanner)
+comment4.params=fname\ scan
+comment4.target=void\ renderpgm(java.lang.String,\ java.util.Scanner)
+comment5.params=fname\ scan
+comment5.target=void\ renderppm(java.lang.String,\ java.util.Scanner)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

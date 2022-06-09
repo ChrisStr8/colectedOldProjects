@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ processDates()
+comment0.text=\n\ Loop\ to\ repeatedly\ process\ a\ date.\n\ Asks\ the\ user\ if\ they\ want\ to\ enter\ another\ date\ each\ time.\n
+comment1.params=
+comment1.target=void\ processADate()
+comment1.text=\n\ Asks\ user\ for\ a\ date,\ then\ produces\ the\ required\ output\n
+comment2.params=arguments
+comment2.target=void\ main(java.lang.String[])
+comment2.text=Create\ a\ new\ DateChecker\ object\ and\ call\ processDates
+numComments=3

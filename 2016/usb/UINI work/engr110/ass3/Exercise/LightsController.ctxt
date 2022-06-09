@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=intersection
+comment0.target=LightsController(Intersection)
+comment0.text=\n\ The\ Constructor\ is\ passed\ the\ intersection\ that\ it\ is\ controlling.\n
+comment1.params=sensor
+comment1.target=void\ signal(java.lang.String)
+comment1.text=\n\ Receives\ a\ change\ in\ a\ sensor\ value\ that\ may\ trigger\ an\ action\ and\ state\ change.\n\ If\ there\ is\ a\ transition\ out\ of\ the\ current\ state\ associated\ with\ this\n\ sensor\ signal,\ \n\ -\ it\ will\ perform\ the\ appropriate\ action\ (if\ any)\n\ -\ it\ will\ transition\ to\ the\ next\ state\n\ \ \ (by\ changing\ the\ state\ field\n\ You\ can\ either\ have\ one\ big\ method,\ or\ you\ can\ break\ it\ up\ into\n\ a\ separate\ method\ for\ each\ state\ \n\n\ possible\ sensor\ values\ that\ you\ should\ respond\ to\:\n\ \ \ \ "carEW"\ \ "carNS"\ \ "pedEW"\ \ "pedNS"\ \ "timerExpired"\n\n\ The\ initial\ version\ given\ here\ is\ just\ a\ two\ state\ FSM\ which\ switches\n\ state\ (and\ changes\ the\ lights)\ whenever\ a\ car\ is\ sensed.\n\ It\ does\ not\ respond\ to\ the\ timer\ at\ all\!\n\ This\ is\ a\ bad\ controller\!\!\ (It\ needs\ more\ states,\ and\ more\ actions.)\n
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,5 @@
+The FMS has the flags r1 r2 and r3.
+In every state of the FMS if there is a request1 signal then r1 is set to true,
+if there is a request2 signal then r2 is set to true and if there is a request3 
+signal then r3 is set to true. 
+I didn't include this in the digram because I coundn't get it to fit. 

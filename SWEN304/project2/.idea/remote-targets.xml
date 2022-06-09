@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="straigchri@db.ecs.vuw.ac.nz:22" type="ssh/sftp">
+        <config>
+          <option name="projectRootOnTarget" value="/home/straigchri/project2" />
+          <option name="serverName" value="straigchri@db.ecs.vuw.ac.nz:22 password" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/usr/pkg/java/openjdk11" />
+            <option name="javaVersionString" value="11.0.9-ea" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="straigchri@greta-pt.ecs.vuw.ac.nz:22" type="ssh/sftp">
+        <config>
+          <option name="projectRootOnTarget" value="/home/straigchri/project2" />
+          <option name="serverName" value="straigchri@greta-pt.ecs.vuw.ac.nz:22 password" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/usr/pkg/java/adoptopenjdk11-bin" />
+            <option name="javaVersionString" value="11.0.10" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="docker" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildImageConfig">
+            <BuildImageConfig>
+              <option name="dockerFile" value="Docker/docker-compose.yml" />
+              <option name="rebuildEveryTime" value="false" />
+            </BuildImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

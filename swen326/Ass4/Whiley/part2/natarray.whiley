@@ -1,0 +1,1 @@
+type nats is (int[] items) where all {i in 0..|items| | items[i] >= 0}

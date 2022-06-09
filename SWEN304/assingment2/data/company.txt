@@ -1,0 +1,4 @@
+CId, Name, Phone, Location
+1, 'testc', 4534959, 'some place'
+2, 'not food place', 4568348, 'that place'
+3, 'food place', 5906790, 'this place'

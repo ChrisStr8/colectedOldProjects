@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ cleanFloor()
+comment0.text=\ cleanFloor\r\n\ \ The\ main\ simulation\ loop,\r\n\ \ Draws\ the\ floor\ area\r\n\ \ Initialises\ the\ position\ and\ direction\ of\ the\ floor\ cleaning\ robot\ and\ draws\ it\r\n\ \ Loops\ forever\r\n\ \ \ \ erase\ the\ robot\ from\ its\ current\ position\r\n\ \ \ \ work\ out\ position\ of\ one\ step\ in\ the\ current\ direction\r\n\ \ \ \ check\ if\ it\ is\ hitting\ a\ wall\ or\ not\r\n\ \ \ \ then\ either\ move\ it\ to\ the\ new\ position,\ or\ change\ its\ direction\r\n\ \ \ \ redraw\r\n\ \ \ \ sleep\ for\ a\ short\ time.\r\n
+comment1.params=x\ y\ dir
+comment1.target=void\ draw(double,\ double,\ double)
+comment1.text=\r\n\ Draws\ the\ robot\ as\ a\ red\ circle\ at\ the\ specified\ position\ and\ direction\r\n
+comment2.params=arguments
+comment2.target=void\ main(java.lang.String[])
+comment2.text=Create\ a\ new\ FloorCleaner\ object\ and\ call\ cleanFloor.
+numComments=3

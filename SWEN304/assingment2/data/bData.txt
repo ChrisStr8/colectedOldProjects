@@ -1,0 +1,14 @@
+9009	Problem solving with Java                                   	2
+1928	Database Management Systems                                 	3
+1010	Data Models                                                 	1
+2222	Database Principles                                         	1
+8888	Building the Data Warehouse                                 	1
+1001	Database Modeling & Design                                  	1
+1111	Fundamentals of Database Systems                            	3
+4444	Principles of Database Systems                              	2
+5555	Object_Relational DBMSs: The Next Great Wave                	1
+5005	Foundation for Object_Relational Databases                  	1
+6666	Principles of Database Design                               	1
+0	Default Book Name                                           	1
+6666	Principles of Database Design                               	2
+3333	Principles of Database and Knowledge-Base Systems           	1

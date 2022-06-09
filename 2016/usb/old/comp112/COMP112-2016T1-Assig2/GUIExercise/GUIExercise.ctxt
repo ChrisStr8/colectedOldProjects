@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ addInput()
+comment1.params=
+comment1.target=GUIExercise()
+comment1.text=\ Construct\ a\ new\ GUIExercise\ object\ and\ set\ up\ the\ GUI\:\r\n\ \ -\ set\ the\ mouse\ listener\r\n\ \ -\ add\ a\ button\r\n\ \ -\ add\ a\ text\ field\r\n
+comment2.params=action\ x\ y
+comment2.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment2.text=\ \r\n\ Respond\ to\ the\ mouse\:\r\n\ This\ program\ only\ does\ something\ on\ a\ released\ action\ -\ it\ draws\ \r\n\ the\ current\ image\ at\ the\ position\ the\ mouse\ was\ released\r\n
+comment3.params=value
+comment3.target=void\ setImageName(java.lang.String)
+comment3.text=\ \r\n\ Stores\ the\ name\ of\ the\ image\ in\ the\ field.\r\n
+comment4.params=arguments
+comment4.target=void\ main(java.lang.String[])
+numComments=5

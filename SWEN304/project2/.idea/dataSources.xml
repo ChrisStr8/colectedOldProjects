@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="straigchri_jdbc@db.ecs.vuw.ac.nz" uuid="d4a67a4c-b91e-4fc9-b0e6-6f4b73f48b0b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://greta-pt.ecs.vuw.ac.nz:5432/db.ecs.vuw.ac.nz/straigchri_jdbc/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

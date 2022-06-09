@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TaxonomyApp()
+comment0.text=\ \r\n\ Constructs\ a\ new\ TaxonomyApp\ object.\r\n\ Sets\ up\ the\ GUI\r\n
+comment1.params=
+comment1.target=void\ newTaxonomy()
+comment10.params=arguments
+comment10.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ loadTaxonomy()
+comment3.params=
+comment3.target=void\ addNode()
+comment4.params=
+comment4.target=void\ removeNode()
+comment5.params=
+comment5.target=void\ moveNode()
+comment6.params=
+comment6.target=void\ reportBelow()
+comment7.params=
+comment7.target=void\ reportAbove()
+comment8.params=
+comment8.target=void\ reportSameDepth()
+comment9.params=
+comment9.target=void\ findClosestAncestor()
+numComments=11

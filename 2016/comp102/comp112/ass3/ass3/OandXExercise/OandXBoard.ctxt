@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ reset()
+comment0.text=\r\n\ Reset\ the\ board\ to\ be\ clear\ of\ all\ symbols\r\n
+comment1.params=x\ y
+comment1.target=boolean\ on(double,\ double)
+comment1.text=\r\n\ Is\ the\ point\ (x,y)\ on\ the\ board\r\n
+comment2.params=x\ y
+comment2.target=int[]\ rowCol(double,\ double)
+comment2.text=\r\n\ Return\ the\ row/col\ corresponding\ to\ the\ point\ x,y.\r\n
+comment3.params=symbol\ row\ col
+comment3.target=boolean\ place(Symbol,\ int,\ int)
+comment3.text=\r\n\ Place\ the\ given\ symbol\ at\ the\ given\ row/col\r\n\ Returns\ true\ if\ symbol\ is\ placed\ successfully.\r\n\ Returns\ false\ if\ the\ position\ is\ not\ on\ the\ board,\ or\r\n\ the\ symbol\ is\ invalid,\ or\ there\ is\ already\ a\ symbol\ there\r\n
+comment4.params=row\ col
+comment4.target=boolean\ checkWin(int,\ int)
+comment4.text=\r\n\ Check\ whether\ the\ play\ at\ row/col\ resulted\ in\ a\ win\ for\ the\ player.\r\n
+comment5.params=
+comment5.target=boolean\ finished()
+comment5.text=\r\n\ Check\ whether\ the\ game\ is\ over\ (no\ more\ cells\ to\ play\ in)\r\n
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=\r\n\ Redraw\ the\ board.\ Assumes\ that\ the\ graphics\ pane\ has\ been\ cleared\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

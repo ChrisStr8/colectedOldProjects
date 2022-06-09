@@ -1,0 +1,31 @@
+Questions for Reflection.
+=========================
+
+1.  What is the advantage of making a DodgemCar class?  Why is it better
+than putting all the code in a single DodgemGame class, like we did
+with the floorCleaner in Assignment 1?
+
+Havimg a seprate class means that you can have multiple instances, without having to duplicate the code. 
+
+2. The assignment split the development of both programs into three
+stages (Core, Completion, and Challenge).  This was partly for
+marking, but it was also intended to make it easier to do the
+program.  Why does it it help to have several stages? What Software Engineering
+methodology does this reflect?
+
+Having several seprate stages is similar to the waterfall methodology. Having multiple stages breaks up 
+the work load, this makes each stage easy compared to the full assingment.
+
+3. Last week you constructed a list of the key Java programming
+constructs that you used.  Add the important new constructs you used
+this week to that list, with a very brief note about each one.
+
+
+
+4. If you learned any more important concepts about programming or Computer
+Science, add them to your list from last week.
+
+
+
+
+

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Domino()
+comment0.text=Construct\ a\ new\ Domino\ object\ with\ a\ pair\ of\ random\ values\ on\ it
+comment1.params=
+comment1.target=void\ flip()
+comment1.text=\n\ Turns\ the\ domino\ over\n
+comment2.params=
+comment2.target=int\ getTop()
+comment2.text=\n\ Return\ the\ top\ number\ on\ the\ Domino\n
+comment3.params=
+comment3.target=int\ getBottom()
+comment3.text=\n\ Return\ the\ bottom\ number\ on\ the\ Domino\n
+comment4.params=x\ y
+comment4.target=void\ draw(double,\ double)
+comment4.text=\n\ Draws\ the\ domino\ at\ the\ position\ x,\ y\n
+comment5.params=num\ x\ y
+comment5.target=void\ drawNumber(int,\ double,\ double)
+comment5.text=\n\ Draw\ the\ number\ in\ the\ square\ at\ x,y,\ using\ white\ circles\n
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Method\ for\ testing\ the\ dominos\n\ Creates\ 49\ dominos,\ and\ draws\ them\ in\ a\ table,\n\ and\ the\ flipped\ versions\ in\ a\ table\ beside\ it\n
+numComments=7

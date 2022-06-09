@@ -1,0 +1,53 @@
+Samples from database of fake names from http://www.fakenamegenerator.com/
+All details are fictious!!
+
+Mr. Jake M Goodwin 11 Yarmouth Road Mahora 4120 JakeGoodwin@teleworm.us (022) 6735-347 1998 Rolls-Royce Silver Spur 100.9 184
+Mr. Samuel D Law 140 Small Street Dunedin Central 9016 SamuelLaw@cuvox.de (028) 0699-710 2001 Dodge Durango 113 180
+Mrs. Aimee L Cunningham 82 Peel Street Bryndwr 8052 AimeeCunningham@armyspy.com (021) 1216-078 2009 BMW 328 65.6 171
+Mrs. Tia S Jennings 218 St Ives Grove Upper Vogeltown 4310 TiaJennings@teleworm.us (027) 0766-257 1997 Hyundai Satellite 84.4 164
+Mrs. Kayleigh E Riley 85 Amherst Place Northcross 632 KayleighRiley@rhyta.com (029) 7361-567 2008 Maserati V8 GranSport 68.8 167
+Mr. Alfie E Bruce 139 Gerona Crescent Manurewa East 2102 AlfieBruce@jourrapide.com (020) 2456-168 2005 GMC Safari 99.2 172
+Mrs. Keira K Chambers 92 Wharf Street Port Taranaki 4310 KeiraChambers@dayrep.com (028) 0801-633 2008 MG ZS 78.3 172
+Ms. Georgia J Lawson 47 Turquoise Place Western Heights 3015 GeorgiaLawson@armyspy.com (021) 3521-440 2005 Mitsubishi Dion 84.1 160
+Dr. Riley J Lees 181 Walnut Place Koutu 3010 RileyLees@fleckens.hu (022) 2904-269 2011 BMW Z4 73.5 167
+
+---------------------------------------------
+
+
+A simple text scanner which can parse primitive types and strings
+using regular expressions.  
+
+A Scanner breaks its input into tokens using a delimiter pattern,
+which by default matches whitespace. The resulting tokens may then be
+converted into values of different types using the various next
+methods.
+
+The scanner can also use delimiters other than whitespace. This
+example reads several items in from a string: 
+
+     String input = "1 fish 2 fish red fish blue fish";
+     Scanner s = new Scanner(input).useDelimiter("\\s*fish\\s*");
+     System.out.println(s.nextInt());
+     System.out.println(s.nextInt());
+     System.out.println(s.next());
+     System.out.println(s.next());
+     s.close(); 
+
+The default whitespace delimiter used by a scanner is as recognized by
+Character.isWhitespace. The reset() method will reset the value of the
+scanner's delimiter to the default whitespace delimiter regardless of
+whether it was previously changed. 
+
+The next() and hasNext() methods and their primitive-type companion
+methods (such as nextInt() and hasNextInt()) first skip any input that
+matches the delimiter pattern, and then attempt to return the next
+token. Both hasNext and next methods may block waiting for further
+input. Whether a hasNext method blocks has no connection to whether or
+not its associated next method will block. 
+
+Depending upon the type of delimiting pattern, empty tokens may be
+returned. For example, the pattern "\\s+" will return no empty tokens
+since it matches multiple instances of the delimiter. The delimiting
+pattern "\\s" could return empty tokens since it only passes one space
+at a time. 
+

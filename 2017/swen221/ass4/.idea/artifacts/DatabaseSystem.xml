@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DatabaseSystem">
+    <output-path>$PROJECT_DIR$/out/artifacts/DatabaseSystem</output-path>
+    <root id="archive" name="DatabaseSystem.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+    </root>
+  </artifact>
+</component>

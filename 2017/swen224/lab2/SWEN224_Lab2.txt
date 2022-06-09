@@ -1,0 +1,40 @@
+﻿
+automata{
+//Activity 1
+    //1)
+    Buf = (in -> out -> Buf).
+    //2)
+    B1 = (one:Buf).
+    //3)
+    B2 = (two:Buf).
+    Buf2p = (B1/{move/one.out} || B2/{move/two.in}).
+    //4)
+    Buf2ps = simp(abs(Buf2p\{move})).
+
+//Activity 2
+    //1)
+    B3 = (three:Buf).
+    Buf3p = (B1/{move/one.out} || B2/{move/two.in,move2/two.out} || B3/{move2/three.in}).
+    Buf3ps = simp(abs(Buf3p\{move,move2})).
+    //2)
+    P1 = (in -> x -> out -> y -> P1).
+    P2 = (in2 -> x-> out2 -> y -> P2).
+    P3 = (P1 || P2).
+
+//Activity 3
+    //1)
+    Sensor = (carOn -> senOn -> carOff -> senOff -> Sensor).
+    TLred = (red -> TLred | turnGreen -> G),
+        G = (green -> G | turnRed -> TLred).
+    Car = (carOn -> green -> carOff -> Car).
+    
+    System = (Sensor || TLred || Car).
+        
+        //a) yes
+        //b) no
+        //c) yes
+    //2)
+}
+
+
+visualiser_json_layout:{"elements":{},"style":[{"selector":"node","style":{"background-color":"#BDC3C7","label":"data(label)","text-valign":"center","text-halign":"center","font-size":"15px","font-weight":"bold","border-width":"3px","width":"label","height":"label","padding":"10px"}},{"selector":"node[type = \"fsaStartState\"]","style":{"border-style":"double","background-color":"#3498DB","border-width":"10px"}},{"selector":"node[type = \"fsaEndState\"]","style":{"border-style":"double","background-color":"#2ECC71","border-width":"10px"}},{"selector":"node[type = \"fsaErrorState\"]","style":{"border-style":"double","background-color":"#C0392b","border-width":"10px"}},{"selector":":parent","style":{"background-opacity":"0.333","text-valign":"top","color":"#000000"}},{"selector":"edge","style":{"width":"3px","line-color":"black","label":"data(label)","curve-style":"bezier","font-size":"15px","font-weight":"bold","target-arrow-color":"black","target-arrow-shape":"triangle","text-background-opacity":"1","text-background-color":"#ffffff","text-background-shape":"rectangle","text-rotation":"autorotate"}}],"zoomingEnabled":true,"userZoomingEnabled":true,"zoom":1,"minZoom":1e-50,"maxZoom":1e+50,"panningEnabled":true,"userPanningEnabled":true,"pan":{"x":0,"y":0},"boxSelectionEnabled":true,"renderer":{"name":"canvas"}}

@@ -1,0 +1,17 @@
+Questions for reflection.
+=========================
+
+
+1. Did you do any online practice questions this week? If yes, which topics did
+you look at and why?
+no
+2. What is one error, bug, or exception that you encountered this week? How did
+you go about fixing it? Can you think of a way of making it easier to fix next
+time?
+when drawing the table new rows would start at the the same x position. To fix this I reset the x position every time I started a new row.
+
+3. What is one thing that you did in this assignment that is similar to previous
+ones? Was it easier this time? How did you approach doing it?
+Using try catch statments was similar to several previous assignments. It was easier this time as I now know that I can just copy and paste the error mesages form the console, rather than copying them manualy
+
+4. If you have any other thoughts about the assignment please write them here.

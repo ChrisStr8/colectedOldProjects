@@ -1,0 +1,71 @@
+ABCD =
+
+ABC =
+ABD =
+ACD =
+BCD =
+
+AB =
+AC =
+AD =
+BC =
+BD =
+CD =
+
+A =
+B =
+C =
+D =
+
+ABCD = ABCD = AC = R
+
+ABC = ABCD = AC= R
+ABD = ABD
+ACD = ACDB = AC = R
+BCD = BCD
+
+AB = AB
+AC = ACBD = R
+AD = ADB
+BC = BCD
+BD = BD
+CD = CD
+
+A = AB
+B = B
+C = CD
+D = D
+
+X = ABCD
+(X - A)+G = BCD (A is needed)
+(X - B)+G = ACDB (B not needed, X = ACD)
+(X - C)+G = AD (C is needed)
+(X - D)+G = ACBD (D not needed, X = AC)
+K = AC
+
+
+ABCD+ = ABCD = R
+
+ABC+ = ABCD = AB+ = AC+ = BC+ =R
+ABD+ = ABDC = AB+ = AD+ = R
+ACD+ = ACDB = AD+ = CD+ = R
+BCD+ = BCDA = BC+ = CD+ = R
+
+AB+ = ABCD = R
+AC+ = AC
+AD+ = ADCB = R
+BC+ = BCAD = R
+BD+ = BD
+CD+ = CDBA = R
+
+A+ = AC
+B+ = B
+C+ = C
+D+ = DB
+
+X = ABCD
+(X - A)+G = BCDA (A not needed, X = BCD)
+(X - B)+G = CDBA (B not needed, X = CD)
+(X - C)+G = DB (C is needed)
+(X - D)+G = C (D is needed)
+K = CD, BC, AD, AB

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1459381599 source:/home/pi/ADC/Adc/adcENGR101Ass4/main.cpp
+	<stdio.h>
+	<time.h>
+

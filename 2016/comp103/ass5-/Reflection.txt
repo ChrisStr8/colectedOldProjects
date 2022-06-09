@@ -1,0 +1,26 @@
+/* Reflection.txt for COMP103
+ * Name:Christopher Straight
+ * Usercode:straigchri
+ * ID:300363269
+ */
+
+For your reflection:
+====================
+
+First, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+espectively. If there were any problems you got stuck on, what were they?
+
+Sometimes a recursive method can alternatively be written just using simple
+loops. What do think determines whether this is possible or not? 
+this is always posible but it is to always pratical.
+
+What are the advantages/disadvantages of using recursive methods rather than
+loops?
+
+Many people find recursion hard to understand at first, although it doesn't do
+anything different from previous programs - it just involves methods which call
+methods.  Why is it tricky then?
+
+--------------------------------------------------------------------

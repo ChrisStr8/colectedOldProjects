@@ -1,0 +1,154 @@
+core 2
+
+#include <iostream>
+
+
+extern "C" int InitHardware();
+
+extern "C" int WriteDigital(int chan, char level);
+
+extern "C" int Sleep(int sec, int usec);
+
+
+int main(){
+    
+for(int i = 0;i < 5;i++){
+        
+InitHardware();
+        
+WriteDigital(7,1);
+        
+Sleep(1,0);
+        
+WriteDigital(7,0);
+        
+Sleep(1,0);
+    
+}
+return 0;
+}
+
+
+
+core 3
+
+#include <stdio.h>
+
+
+extern "C" int InitHardware();
+
+extern "C" int WriteDigital(int chan, char level);
+
+extern "C" int Sleep(int sec, int usec);
+
+extern "C" int ReadAnalog(int ch_adc);
+
+
+
+int main(){
+    
+InitHardware();
+    
+while(true){
+        
+int number = ReadAnalog(0);
+
+        
+printf("%d", number);
+        
+if (number > 100){
+            
+WriteDigital(7,1);
+        
+}
+        
+else if (number < 6) {
+            
+WriteDigital(7,0);
+        
+}
+        
+else {
+            
+WriteDigital(7,0);
+        
+}
+        
+Sleep(0,100000);
+    
+}
+return 0;
+}
+
+
+
+
+core5
+
+
+
+
+challange1
+
+
+#include <stdio.h>
+
+
+extern "C" int InitHardware();
+
+extern "C" int WriteDigital(int chan, char level);
+
+extern "C" int Sleep(int sec, int usec);
+
+extern "C" int ReadAnalog(int ch_adc);
+
+extern "C" int SetMotor(int motor, int dir, int speed);
+
+
+
+int main(){
+    
+InitHardware();
+    
+while(true){
+        
+int number = ReadAnalog(0);
+
+        
+printf("%d", number);
+        
+if (number > 150){
+            
+WriteDigital(7,1);
+            
+SetMotor(1, 1, 0);
+
+        
+}
+        
+else if (number < 6) {
+            
+WriteDigital(7,0);
+            
+SetMotor(1, 1, 0);
+
+        
+}
+        
+else {
+            
+WriteDigital(7,0);
+            
+SetMotor(1, 1, 150);
+
+        
+}
+        
+Sleep(0,100000);
+    
+}
+
+return 0;
+}
+
+

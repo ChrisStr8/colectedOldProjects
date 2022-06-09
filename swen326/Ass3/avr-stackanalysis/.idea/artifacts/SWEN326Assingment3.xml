@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SWEN326Assingment3">
+    <output-path>$PROJECT_DIR$/out/artifacts/SWEN326Assingment3</output-path>
+    <root id="archive" name="SWEN326Assingment3.jar">
+      <element id="module-output" name="avr-stackanalysis" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      <element id="library" level="project" name="javr-1.1.1" />
+    </root>
+  </artifact>
+</component>

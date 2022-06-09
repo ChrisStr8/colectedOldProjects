@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Model()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Model\r\n
+comment1.params=
+comment1.target=void\ calculate()
+comment2.params=
+comment2.target=double\ calcOutput()
+comment3.params=output
+comment3.target=double\ calcCost(double)
+comment3.text=\r\n\ calculate\ the\ cost\r\n
+numComments=4

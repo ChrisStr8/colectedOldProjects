@@ -1,0 +1,23 @@
+0	Default        	Customer       	\N
+2	Leow           	May-N          	Wellington     
+3	Andreae        	Peter          	Lower Hutt     
+4	Noble          	James          	Upper Hutt     
+5	Tempero        	Ewan           	Upper Hutt     
+6	Anderson       	Svend          	Lower Hutt     
+7	Nickson        	Ray            	Upper Hutt     
+8	Dobbie         	Gill           	Upper Hutt     
+9	Martin         	Paul           	Wellington     
+10	Barmouta       	Alex           	Upper Hutt     
+11	Xu             	Gang           	Lower Hutt     
+12	McMurray       	Linda          	Wellington     
+13	Somerfield     	Nigel          	Wellington     
+14	Anslow         	Craig          	Wellington     
+15	Gandhi         	Amit           	Upper Hutt     
+16	Yi             	Shusen         	Lower Hutt     
+17	Zhou           	Daisy          	Lower Hutt     
+18	Chui           	Chang          	Wellington     
+19	Dolman         	Jerome         	Wellington     
+20	Wojnar         	Maciej         	Upper Hutt     
+21	Wayne          	Thomson        	Wellington     
+22	Pierce         	David          	Wellington     
+1	Jackson        	Kirk           	Wellington

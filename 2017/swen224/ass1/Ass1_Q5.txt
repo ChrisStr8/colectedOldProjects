@@ -1,0 +1,28 @@
+﻿//Question 4
+automata{
+    //a)
+    Lift1 = (ground -> Lift1 | up -> L2),
+        L2 = (one -> L2 | down -> Lift1).
+    
+    //b)
+    Rbt = (goUp -> Up | goDown -> Down),
+        Up = (off -> Rbt | goDown -> Down),
+        Down = (off -> Rbt | goUp -> Up).
+    
+    Lift1RBt = (Lift1 || Rbt).
+    
+    //c)
+    Lift1RAbs = simp(abs((Lift1||Rbt)\{off,goUp,goDown})).
+}
+
+//Question 5
+automata{
+    BridgeTL = (tored -> (togreen -> BridgeTL | Red) | Green),
+        Red = (red -> Red),
+        Green = (green -> Green).
+    
+    Car = (green -> enter -> exit -> Car).
+    //Br = simp(abs((north:Car || south:Car || BridgeTL)
+//\{north.green,north.tored,south.green,south.tored})).
+}
+visualiser_json_layout:{"elements":{"nodes":[{"data":{"id":"BridgeTL","label":"BridgeTL","isParent":true,"interrupts":0},"position":{"x":534.6195,"y":-61.65800000000001},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"BridgeTLnBridgeTL.n0","label":0,"type":"fsaStartState","parent":"BridgeTL","position":{"x":61.189,"y":22.592}},"position":{"x":453.4691868972235,"y":-18.408},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"BridgeTLnBridgeTL.n2","label":1,"type":"fsaState","parent":"BridgeTL","position":{"x":261.55,"y":22.592}},"position":{"x":619.2698131027765,"y":-108.408},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""}],"edges":[{"data":{"id":"BridgeTLnBridgeTL.n0-green->BridgeTLnBridgeTL.n0","label":"green","source":"BridgeTLnBridgeTL.n0","target":"BridgeTLnBridgeTL.n0","parent":"BridgeTL"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"BridgeTLnBridgeTL.n2-togreen->BridgeTLnBridgeTL.n0","label":"togreen","source":"BridgeTLnBridgeTL.n2","target":"BridgeTLnBridgeTL.n0","parent":"BridgeTL"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"BridgeTLnBridgeTL.n0-tored->BridgeTLnBridgeTL.n2","label":"tored","source":"BridgeTLnBridgeTL.n0","target":"BridgeTLnBridgeTL.n2","parent":"BridgeTL"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""},{"data":{"id":"BridgeTLnBridgeTL.n2-red->BridgeTLnBridgeTL.n2","label":"red","source":"BridgeTLnBridgeTL.n2","target":"BridgeTLnBridgeTL.n2","parent":"BridgeTL"},"position":{},"group":"edges","removed":false,"selected":false,"selectable":true,"locked":false,"grabbable":true,"classes":""}]},"style":[{"selector":"node","style":{"background-color":"#BDC3C7","label":"data(label)","text-valign":"center","text-halign":"center","font-size":"15px","font-weight":"bold","border-width":"3px","width":"label","height":"label","padding":"10px"}},{"selector":"node[type = \"fsaStartState\"]","style":{"border-style":"double","background-color":"#3498DB","border-width":"10px"}},{"selector":"node[type = \"fsaEndState\"]","style":{"border-style":"double","background-color":"#2ECC71","border-width":"10px"}},{"selector":"node[type = \"fsaErrorState\"]","style":{"border-style":"double","background-color":"#C0392b","border-width":"10px"}},{"selector":":parent","style":{"background-opacity":"0.333","text-valign":"top","color":"#000000"}},{"selector":"edge","style":{"width":"3px","line-color":"black","label":"data(label)","curve-style":"bezier","font-size":"15px","font-weight":"bold","target-arrow-color":"black","target-arrow-shape":"triangle","text-background-opacity":"1","text-background-color":"#ffffff","text-background-shape":"rectangle","text-rotation":"autorotate"}},{"selector":":parent","style":{"color":"#000000"}}],"zoomingEnabled":true,"userZoomingEnabled":true,"zoom":1,"minZoom":1e-50,"maxZoom":1e+50,"panningEnabled":true,"userPanningEnabled":true,"pan":{"x":-122.3746525907618,"y":248.592428682214},"boxSelectionEnabled":true,"renderer":{"name":"canvas"}}

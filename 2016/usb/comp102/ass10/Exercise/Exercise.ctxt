@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Exercise()
+comment0.text=\ Construct\ a\ new\ Exercise\ object\ and\ set\ up\ the\ GUI\r\n\ \ \ \ -\ set\ the\ mouselistener\r\n\ \ \ \ -\ make\ two\ buttons\ -\ "Circle"\ and\ "Move"\r\n
+comment1.params=
+comment1.target=void\ circle()
+comment2.params=
+comment2.target=void\ move()
+comment3.params=action\ x\ y
+comment3.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment3.text=\ Respond\ to\ mouse\ events\r\n\ \ if\ "pressed",\ find\ and\ record\ the\ Circle\ it\ was\ pressed\ on\ (if\ any)\r\n\ \ \ \ in\ the\ currentCircle\ field,\ using\ the\ findCircle\ method\r\n\ \ if\ "released",\ then\ depends\ on\ whether\ the\ program\ is\ drawing\ or\ moving\r\n\ \ \ \ if\ drawing\ then\ create\ a\ new\ Circle\ and\ add\ to\ the\ list\r\n\ \ \ \ if\ moving,\ and\ the\ currentCircle\ is\ not\ null,\r\n\ \ \ \ \ \ \ then\ move\ that\ Circle\ to\ a\ new\ place.\r\n\ \ \ \ \ \ (by\ calling\ the\ setPos(..)\ method\ on\ the\ current\ circle)\r\n\ \ After\ each\ "released"\ action,\ redraw\ the\ collection\ of\ shapes.\r\n
+comment4.params=x\ y
+comment4.target=Circle\ findCircle(double,\ double)
+comment4.text=\ Search\ through\ the\ circles\ array\ for\ a\ Circle\ that\ the\ point\ x,y\ is\ on\r\n\ \ \ by\ calling\ the\ on(..)\ method\ on\ each\ circle\ \r\n\ If\ there\ is\ such\ a\ Circle,\ return\ the\ Circle\ object.\r\n\ if\ there\ is\ no\ such\ circle,\ return\ null.\r\n
+comment5.params=
+comment5.target=void\ redrawCircles()
+comment5.text=\ Clear\ the\ graphics\ pane,\r\n\ \ \ \ redraw\ all\ the\ circles,\ (calling\ the\ redraw\ method\ on\ each\ circle)\r\n\ \ \ \ repaint\ the\ graphics\ pane.\r\n
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+numComments=7

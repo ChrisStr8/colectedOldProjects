@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 90eb5d34a0b84144c9fd59b2e1f09abe
+timeCreated: 1505608435
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: babies_by_ptimiya 1_0
+    21300002: babies_by_ptimiya 1_1
+    21300004: babies_by_ptimiya 1_2
+    21300006: babies_by_ptimiya 1_3
+    21300008: babies_by_ptimiya 1_4
+    21300010: babies_by_ptimiya 1_5
+    21300012: babies_by_ptimiya 1_6
+    21300014: babies_by_ptimiya 1_7
+    21300016: babies_by_ptimiya 1_8
+    21300018: babies_by_ptimiya 1_9
+    21300020: babies_by_ptimiya 1_10
+    21300022: babies_by_ptimiya 1_11
+    21300024: babies_by_ptimiya 1_12
+    21300026: babies_by_ptimiya 1_13
+    21300028: babies_by_ptimiya 1_14
+    21300030: babies_by_ptimiya 1_15
+    21300032: babies_by_ptimiya 1_16
+    21300034: babies_by_ptimiya 1_17
+    21300036: babies_by_ptimiya 1_18
+    21300038: babies_by_ptimiya 1_19
+    21300040: babies_by_ptimiya 1_20
+    21300042: babies_by_ptimiya 1_21
+    21300044: babies_by_ptimiya 1_22
+    21300046: babies_by_ptimiya 1_23
+    21300048: babies_by_ptimiya 1_24
+    21300050: babies_by_ptimiya 1_25
+    21300052: babies_by_ptimiya 1_26
+    21300054: babies_by_ptimiya 1_27
+    21300056: babies_by_ptimiya 1_28
+    21300058: babies_by_ptimiya 1_29
+    21300060: babies_by_ptimiya 1_30
+    21300062: babies_by_ptimiya 1_31
+    21300064: babies_by_ptimiya 1_32
+    21300066: babies_by_ptimiya 1_33
+    21300068: babies_by_ptimiya 1_34
+    21300070: babies_by_ptimiya 1_35
+    21300072: babies_by_ptimiya 1_36
+    21300074: babies_by_ptimiya 1_37
+    21300076: babies_by_ptimiya 1_38
+    21300078: babies_by_ptimiya 1_39
+    21300080: babies_by_ptimiya 1_40
+    21300082: babies_by_ptimiya 1_41
+    21300084: babies_by_ptimiya 1_42
+    21300086: babies_by_ptimiya 1_43
+    21300088: babies_by_ptimiya 1_44
+    21300090: babies_by_ptimiya 1_45
+    21300092: babies_by_ptimiya 1_46
+    21300094: babies_by_ptimiya 1_47
+    21300096: babies_by_ptimiya 1_48
+    21300098: babies_by_ptimiya 1_49
+    21300100: babies_by_ptimiya 1_50
+    21300102: babies_by_ptimiya 1_51
+    21300104: babies_by_ptimiya 1_52
+    21300106: babies_by_ptimiya 1_53
+    21300108: babies_by_ptimiya 1_54
+    21300110: babies_by_ptimiya 1_55
+    21300112: babies_by_ptimiya 1_56
+    21300114: babies_by_ptimiya 1_57
+    21300116: babies_by_ptimiya 1_58
+    21300118: babies_by_ptimiya 1_59
+    21300120: babies_by_ptimiya 1_60
+    21300122: babies_by_ptimiya 1_61
+    21300124: babies_by_ptimiya 1_62
+    21300126: babies_by_ptimiya 1_63
+    21300128: babies_by_ptimiya 1_64
+    21300130: babies_by_ptimiya 1_65
+    21300132: babies_by_ptimiya 1_66
+    21300134: babies_by_ptimiya 1_67
+    21300136: babies_by_ptimiya 1_68
+    21300138: babies_by_ptimiya 1_69
+    21300140: babies_by_ptimiya 1_70
+    21300142: babies_by_ptimiya 1_71
+    21300144: babies_by_ptimiya 1_72
+    21300146: babies_by_ptimiya 1_73
+    21300148: babies_by_ptimiya 1_74
+    21300150: babies_by_ptimiya 1_75
+    21300152: babies_by_ptimiya 1_76
+    21300154: babies_by_ptimiya 1_77
+    21300156: babies_by_ptimiya 1_78
+    21300158: babies_by_ptimiya 1_79
+    21300160: babies_by_ptimiya 1_80
+    21300162: babies_by_ptimiya 1_81
+    21300164: babies_by_ptimiya 1_82
+    21300166: babies_by_ptimiya 1_83
+    21300168: babies_by_ptimiya 1_84
+    21300170: babies_by_ptimiya 1_85
+    21300172: babies_by_ptimiya 1_86
+    21300174: babies_by_ptimiya 1_87
+    21300176: babies_by_ptimiya 1_88
+    21300178: babies_by_ptimiya 1_89
+    21300180: babies_by_ptimiya 1_90
+    21300182: babies_by_ptimiya 1_91
+    21300184: babies_by_ptimiya 1_92
+    21300186: babies_by_ptimiya 1_93
+    21300188: babies_by_ptimiya 1_94
+    21300190: babies_by_ptimiya 1_95
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 358
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 357
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 356
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 359
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 358
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 357
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 356
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 359
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 326
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 325
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 325
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 327
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 326
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 325
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_14
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 325
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 327
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 294
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 293
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 291
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 295
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 294
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 293
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 291
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 295
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 261
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_25
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 260
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_26
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 259
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 262
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 262
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 261
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_30
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 260
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 263
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 229
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 228
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_34
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 228
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_35
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 230
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_36
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 230
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 229
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_38
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 229
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 231
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 197
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 196
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 194
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 198
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_44
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 198
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_45
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 197
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 195
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_47
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 199
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 166
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_49
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 165
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_50
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 164
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 167
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_52
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 167
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_53
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 166
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_54
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 165
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_55
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 168
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_56
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 134
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_57
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_58
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 133
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_59
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 135
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_60
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 135
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_61
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 134
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_62
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 134
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_63
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 136
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 102
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_65
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 101
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 99
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_67
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 103
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_68
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 103
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_69
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 102
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_70
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 100
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_71
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 104
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_73
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 69
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_74
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 68
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 71
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_76
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 70
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_77
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 69
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 68
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_79
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 71
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_80
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_81
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 37
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_82
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 37
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_83
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 39
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_84
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 38
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_85
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 37
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_86
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 37
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_87
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 39
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_89
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 5
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_90
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_91
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 7
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_92
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 6
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_93
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 5
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_94
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: babies_by_ptimiya 1_95
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 7
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

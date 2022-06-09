@@ -1,0 +1,14 @@
+green 548 70
+green 147 66
+yellow 426 303
+blue 97 311
+green 367 107
+green 230 221
+blue 311 392
+green 38 170
+yellow 263 59
+blue 28 21
+green 572 242
+yellow 723 48
+yellow 456 19
+blue 669 380

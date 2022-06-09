@@ -1,0 +1,4 @@
+Parts 1-3 are completed
+the simple and full programs all parse successfully.
+the all bad programs fail to parse, except s1_bad3, s1_bad4 and s2_bad4 i'm not sure
+why they are supposed to fail, they don't seem to violate the grammar .

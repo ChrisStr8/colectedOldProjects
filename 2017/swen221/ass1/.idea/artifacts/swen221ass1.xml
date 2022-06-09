@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="swen221ass1">
+    <output-path>$PROJECT_DIR$/out/artifacts/swen221ass1</output-path>
+    <root id="archive" name="swen221ass1.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/code" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="db.ecs.vuw.ac.nz" id="ac8881e9-0381-4b78-a4d5-dd58d2939a75" port="22" nameFormat="DESCRIPTIVE" username="straigchri" />
+      <sshConfig authType="PASSWORD" host="greta-pt.ecs.vuw.ac.nz" id="e22f39c7-be7f-46c4-bda3-0d8c9b93ea6a" port="22" nameFormat="DESCRIPTIVE" username="straigchri" />
+      <sshConfig authType="PASSWORD" host="depot.ecs.vuw.ac.nz" id="f278cc0f-bba5-4940-9105-bd0a7ab975c2" port="22" customName="straigchri@depot.ecs.vuw.ac.nz:22" nameFormat="CUSTOM" username="straigchri">
+        <option name="customName" value="straigchri@depot.ecs.vuw.ac.nz:22" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

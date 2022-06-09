@@ -1,0 +1,4 @@
+A x E y(Triangle(x)/\SameCol(x,y))
+A x E y(Triangle(x)=>SameCol(x,y))
+E y A x(Triangle(x)=>SameCol(x,y))
+E y A x(SameCol(x,y)/\Triangle(x))

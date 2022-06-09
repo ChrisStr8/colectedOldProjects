@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayQueue()
+comment1.params=
+comment1.target=int\ size()
+comment1.text=Return\ the\ number\ of\ items\ in\ collection
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=\ Return\ the\ item\ at\ the\ front\ of\ the\ queue,\r\n\ \ or\ null\ if\ the\ queue\ is\ empty,\ but\ does\ not\ change\ the\ queue\ \r\n
+comment3.params=
+comment3.target=java.lang.Object\ poll()
+comment3.text=\ Remove\ and\ return\ the\ item\ at\ the\ front\ of\ the\ queue,\r\n\ \ or\ null\ if\ the\ queue\ is\ empty\ \r\n
+comment4.params=item
+comment4.target=boolean\ offer(java.lang.Object)
+comment4.text=\ Add\ an\ item\ onto\ the\ back\ for\ the\ queue,\ unless\ the\ item\ is\ null\r\n\ \ If\ the\ item\ was\ added,\ it\ returns\ true,\r\n\ \ if\ the\ item\ was\ null,\ it\ returns\ false\ \r\n
+comment5.params=
+comment5.target=void\ ensureCapacity()
+comment5.text=Ensure\ data\ array\ has\ sufficient\ room\ to\ add\ a\ new\ item
+comment6.params=
+comment6.target=java.util.Iterator\ iterator()
+comment6.text=Return\ an\ iterator\ over\ the\ items\ in\ the\ list
+numComments=7

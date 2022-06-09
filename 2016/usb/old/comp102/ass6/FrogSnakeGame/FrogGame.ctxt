@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FrogGame()
+comment0.text=\ Constructor\n\ Set\ up\ the\ GUI,\n\ Draw\ the\ arena\ and\ the\ bug\n
+comment1.params=key
+comment1.target=void\ doKey(java.lang.String)
+comment1.text=\n\ Respond\ to\ keys.\n\ the\ space\ key\ should\ reset\ the\ game\ to\ have\ two\ new\ frogs\n\ the\ w/a/s/d\ keys\ should\ make\ the\ light\ frog\ turn\ up,\ to\ the\ left,\ down\ or\ to\ the\ right\n\ the\ i/j/k/l\ keys\ should\ make\ the\ dark\ frog\ turn\ up,\ to\ the\ left,\ down\ or\ to\ the\ right\n
+comment2.params=
+comment2.target=void\ restartGame()
+comment2.text=\n\ Reset\ the\ game\ with\ two\ new\ frogs\ in\ the\ starting\ positions.\n\ Loop\ forever\n\ \ -\ move\ each\ frog\ one\ step,\n\ \ -\ if\ any\ frog\ has\ caught\ the\ bug,\ it\ grows,\ and\ a\ new\ bug\ appears\ somewhere\ else.\n\ \ -\ redraw\ the\ game\ (frogs,\ arena,\ and\ bug)\n
+comment3.params=
+comment3.target=void\ redraw()
+comment3.text=\n\ Redraws\n\ -\ the\ arena\n\ -\ the\ bug\n\ -\ the\ two\ frogs\n
+comment4.params=
+comment4.target=void\ drawArenaBug()
+comment4.text=\n\ Draw\ the\ arena\ as\ a\ rectangle\ with\ a\ bug\ in\ it\n
+comment5.params=
+comment5.target=void\ newBug()
+comment5.text=\n\ Defines\ new\ position\ for\ the\ bug\ and\ draws\ it\n
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Create\ a\ new\ FrogGame\ object\ (which\ will\ set\ up\ the\ interface)\n\ and\ then\ call\ the\ run\ method\ on\ it,\ which\ will\ start\ the\ game\ running\n
+numComments=7

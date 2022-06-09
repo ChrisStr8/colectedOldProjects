@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bag()
+comment1.params=
+comment1.target=void\ reset()
+comment1.text=Reset\ the\ bag\ to\ contain\ all\ 100\ tiles
+comment2.params=count\ name\ score
+comment2.target=void\ addTiles(int,\ java.lang.String,\ int)
+comment2.text=Add\ the\ specified\ number\ of\ tiles\ of\ the\ given\ name\ and\ score\ to\ the\ bag
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=Is\ the\ bag\ empty\ yet?
+numComments=4

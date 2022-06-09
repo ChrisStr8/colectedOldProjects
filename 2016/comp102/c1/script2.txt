@@ -1,0 +1,42 @@
+Alice 100 150 green
+Bob 400 150 blue
+Alice lookRight
+Bob lookLeft
+Alice speak What's your name?
+Bob frown
+Bob speak What?
+Alice frown
+Alice walk 10
+Alice speak WHAT'S YOUR NAME?
+Bob smile
+Bob speak Oh, I'm Bob
+Alice speak What did you say?
+Bob frown
+Bob speak What?
+Alice walk 10
+Alice speak I didn't hear you.
+Bob walk 10
+Bob speak I said I'M BOB
+Alice smile
+Alice speak OK, Hello Bob
+Bob smile
+Bob walk 10
+Bob speak What's your name?
+Alice frown
+Alice speak What did you say?
+Bob frown
+Bob speak This protocol's too hard
+Bob lookRight
+Bob walk 20
+Alice speak This protocol's too hard
+Alice lookLeft
+Alice walk 20
+Bob walk 20
+Alice walk 20
+Bob walk 20
+Alice walk 20
+Bob walk 20
+Alice walk 20
+Bob walk 20
+Alice walk 20
+Bob walk 20

@@ -1,0 +1,13 @@
+version: '2.4'
+
+services:
+
+  straigchri_jdbc:
+      # jdbc:postgresql://localhost:54335/straigchri_jdbc?user=straigchri&amp;password=q2w3eer
+      container_name: straigchri_jdbc
+      ports:
+        - "54335:5432"
+      image: postgres:13-alpine
+      env_file: proj2.env
+      healthcheck:
+        test: "exit 0"

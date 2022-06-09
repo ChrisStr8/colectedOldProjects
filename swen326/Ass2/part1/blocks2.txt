@@ -1,0 +1,198 @@
+___UDUDU__RLRLR___ULDR
+
+
+0000 [*] rjmp 0xe
+ ... 
+000F [*] eor r1, r1
+0010 [*] out 0x3f, r1
+0011 [*] ldi r28, 0x5f
+0012 [*] ldi r29, 0x2
+0013 [*] out 0x3e, r29
+0014 [*] out 0x3d, r28
+0015 [*] ldi r18, 0x0
+0016 [*] ldi r26, 0x60
+0017 [*] ldi r27, 0x0
+0018 [*] rjmp 0x1
+0019 [*] st_x_inc r1
+001A [*] cpi r26, 0xe0
+001B [*] cpc r27, r18
+001C [*] brne 0xfffffffc	<<<<<<<<<<<<<<<<<<<< (0)
+001D [*] rcall 0x13d
+001E [ ] rjmp 0x150
+ ... 
+0024 [*] ldi r18, 0x8
+0025 [*] ldi r19, 0x0
+0026 [*] ldi r20, 0x4
+0027 [*] ldi r21, 0x5
+0028 [*] out 0x18, r1
+0029 [*] sbrs r24	<<<<<<<<<<<<<<<<<<<< (1)
+002A [*] rjmp 0x7
+002B [*] out 0x18, r21
+002C [*] asr r25
+002D [*] ror r24
+002E [*] subi r18, 0x1
+002F [*] sbc r19, r1
+0030 [*] brne 0xfffffff7	<<<<<<<<<<<<<<<<<<<< (2)
+0031 [*] ret
+0032 [*] out 0x18, r20
+0033 [*] rjmp 0xfffffff8
+ ... 
+00C2 [*] push r16
+00C3 [*] push r17
+00C4 [*] push r28
+00C5 [*] push r29
+00C6 [*] ldi r17, 0x0
+00C7 [*] ldi r16, 0x0
+00C8 [*] ldi r29, 0x0
+00C9 [*] ldi r28, 0x0
+00CA [*] cpi r28, 0x4
+00CB [*] cpc r29, r1
+00CC [*] brge 0x5	<<<<<<<<<<<<<<<<<<<< (3)
+00CD [*] ser r24
+00CE [*] ldi r25, 0x0
+00CF [*] cpi r16, 0x20
+00D0 [*] cpc r17, r1
+00D1 [*] brlt 0x2	<<<<<<<<<<<<<<<<<<<< (4)
+00D2 [*] ldi r25, 0x0
+00D3 [*] ldi r24, 0x0
+00D4 [*] rcall 0xffffff4f
+00D5 [*] adiw r28, 0x1
+00D6 [*] cpi r28, 0x8
+00D7 [*] cpc r29, r1
+00D8 [*] brne 0xfffffff1	<<<<<<<<<<<<<<<<<<<< (5)
+00D9 [*] subi r16, 0xff
+00DA [*] sbci r17, 0xff
+00DB [*] cpi r16, 0x40
+00DC [*] cpc r17, r1
+00DD [*] brne 0xffffffea	<<<<<<<<<<<<<<<<<<<< (6)
+00DE [*] pop r29
+00DF [*] pop r28
+00E0 [*] pop r17
+00E1 [*] pop r16
+00E2 [*] ret
+00E3 [*] push r16
+00E4 [*] push r17
+00E5 [*] push r28
+00E6 [*] push r29
+00E7 [*] ldi r17, 0x0
+00E8 [*] ldi r16, 0x0
+00E9 [*] ldi r29, 0x0
+00EA [*] ldi r28, 0x0
+00EB [*] cpi r28, 0x4
+00EC [*] cpc r29, r1
+00ED [*] brge 0x5	<<<<<<<<<<<<<<<<<<<< (7)
+00EE [*] ser r24
+00EF [*] ldi r25, 0x0
+00F0 [*] cpi r16, 0x20
+00F1 [*] cpc r17, r1
+00F2 [*] brge 0x2	<<<<<<<<<<<<<<<<<<<< (8)
+00F3 [*] ldi r25, 0x0
+00F4 [*] ldi r24, 0x0
+00F5 [*] rcall 0xffffff2e
+00F6 [*] adiw r28, 0x1
+00F7 [*] cpi r28, 0x8
+00F8 [*] cpc r29, r1
+00F9 [*] brne 0xfffffff1	<<<<<<<<<<<<<<<<<<<< (9)
+00FA [*] subi r16, 0xff
+00FB [*] sbci r17, 0xff
+00FC [*] cpi r16, 0x40
+00FD [*] cpc r17, r1
+00FE [*] brne 0xffffffea	<<<<<<<<<<<<<<<<<<<< (10)
+00FF [*] pop r29
+0100 [*] pop r28
+0101 [*] pop r17
+0102 [*] pop r16
+0103 [*] ret
+0104 [*] push r16
+0105 [*] push r17
+0106 [*] push r28
+0107 [*] push r29
+0108 [*] ldi r17, 0x0
+0109 [*] ldi r16, 0x0
+010A [*] ldi r29, 0x0
+010B [*] ldi r28, 0x0
+010C [*] cpi r28, 0x4
+010D [*] cpc r29, r1
+010E [*] brlt 0x5	<<<<<<<<<<<<<<<<<<<< (11)
+010F [*] ser r24
+0110 [*] ldi r25, 0x0
+0111 [*] cpi r16, 0x20
+0112 [*] cpc r17, r1
+0113 [*] brlt 0x2	<<<<<<<<<<<<<<<<<<<< (12)
+0114 [*] ldi r25, 0x0
+0115 [*] ldi r24, 0x0
+0116 [*] rcall 0xffffff0d
+0117 [*] adiw r28, 0x1
+0118 [*] cpi r28, 0x8
+0119 [*] cpc r29, r1
+011A [*] brne 0xfffffff1	<<<<<<<<<<<<<<<<<<<< (13)
+011B [*] subi r16, 0xff
+011C [*] sbci r17, 0xff
+011D [*] cpi r16, 0x40
+011E [*] cpc r17, r1
+011F [*] brne 0xffffffea	<<<<<<<<<<<<<<<<<<<< (14)
+0120 [*] pop r29
+0121 [*] pop r28
+0122 [*] pop r17
+0123 [*] pop r16
+0124 [*] ret
+0125 [*] push r16
+0126 [*] push r17
+0127 [*] push r28
+0128 [*] push r29
+0129 [*] ldi r17, 0x0
+012A [*] ldi r16, 0x0
+012B [*] ldi r29, 0x0
+012C [*] ldi r28, 0x0
+012D [*] cpi r28, 0x4
+012E [*] cpc r29, r1
+012F [*] brlt 0x5	<<<<<<<<<<<<<<<<<<<< (15)
+0130 [*] ser r24
+0131 [*] ldi r25, 0x0
+0132 [*] cpi r16, 0x20
+0133 [*] cpc r17, r1
+0134 [*] brge 0x2	<<<<<<<<<<<<<<<<<<<< (16)
+0135 [*] ldi r25, 0x0
+0136 [*] ldi r24, 0x0
+0137 [*] rcall 0xfffffeec
+0138 [*] adiw r28, 0x1
+0139 [*] cpi r28, 0x8
+013A [*] cpc r29, r1
+013B [*] brne 0xfffffff1	<<<<<<<<<<<<<<<<<<<< (17)
+013C [*] subi r16, 0xff
+013D [*] sbci r17, 0xff
+013E [*] cpi r16, 0x40
+013F [*] cpc r17, r1
+0140 [*] brne 0xffffffea	<<<<<<<<<<<<<<<<<<<< (18)
+0141 [*] pop r29
+0142 [*] pop r28
+0143 [*] pop r17
+0144 [*] pop r16
+0145 [*] ret
+ ... 
+015B [*] ldi r24, 0xf
+015C [*] out 0x17, r24
+015D [*] out 0x18, r1
+015E [*] rcall 0xffffff63
+015F [*] inr24, 0x16
+0160 [*] andi r24, 0x3a
+0161 [*] breq 0xfffffffd	<<<<<<<<<<<<<<<<<<<< (19)
+0162 [*] cpi r24, 0x8
+0163 [*] brne 0x5	<<<<<<<<<<<<<<<<<<<< (20)
+0164 [*] rcall 0xffffff7e
+0165 [*] sbis 0x16, 5	<<<<<<<<<<<<<<<<<<<< (21)
+0166 [*] rjmp 0xfffffffe
+0167 [*] rcall 0xffffffbd
+0168 [*] rjmp 0xfffffff5
+0169 [*] cpi r24, 0x20
+016A [*] brne 0xfffffff3	<<<<<<<<<<<<<<<<<<<< (22)
+016B [*] rcall 0xffffff98
+016C [*] sbis 0x16, 3	<<<<<<<<<<<<<<<<<<<< (23)
+016D [*] rjmp 0xfffffffe
+016E [*] rjmp 0xfffffff8
+016F [ ] cli
+0170 [ ] rjmp 0xffffffff
+ ... 
+Instruction Coverage = 184 / 187(8192)
+Branch Coverage = 24 / 24
+BRANCH COVERAGE: 100.0

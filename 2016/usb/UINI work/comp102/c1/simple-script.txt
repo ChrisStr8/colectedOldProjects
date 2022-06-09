@@ -1,0 +1,17 @@
+Jim 100 150 blue
+Jan 400 150 yellow
+Jim frown
+Jim speak hello there,
+Jan lookLeft
+Jan speak hello
+Jim smile
+Jan walk 10
+Jan walk 20
+Jim lookLeft
+Jan walk 10
+Jim frown
+Jan walk 20
+Jan walk 20
+Jan lookRight
+Jim walk 40
+Jan walk 20

@@ -1,0 +1,80 @@
+﻿//QUESTION 1
+automata{
+    Ping = one->three-> STOP.
+    Pong = two->STOP.
+    Opps = Ping||Pong.
+    PingX = one-> x -> y -> three-> STOP.
+    PongX = x -> two-> y -> STOP.
+    Good = simp(abs((PingX||PongX)\{x,y})).
+    
+}
+
+//QUESTION 2
+automata{
+    //a)
+    VMhit = coin -> (coffeeBtn -> coffee -> VMhit | hit -> VMhit).
+
+    //b)
+    VMtc = coin -> (teaBtn -> tea -> VMtc | coin -> coffeeBtn -> coffee -> VMtc).
+
+    //c)
+    VMblack = (Coin | Wb2),
+    
+    Coin = (coin -> (BlackC | BlackT | Wb)),
+    Wb = (wb -> (R | wb -> Wb)),
+    Wb2 = (wb -> (coin -> R | wb -> Wb2)),
+    R = (WhiteC | WhiteT),
+    
+    WhiteC = (coffeeBtn -> whiteCoffee -> VMblack),
+    WhiteT = (teaBtn -> whiteTea -> VMblack),
+    BlackC = (coffeeBtn -> blackCoffee -> VMblack),
+    BlackT = (teaBtn -> blackTea -> VMblack).
+}
+
+//QUESTION 3
+const N = 4
+automata{
+    Buff = B[0],
+        B[i:0..N] = (when i<N in -> B[i+1] |
+                    when 0<i out -> B[i-1]).
+}
+
+//QUESTION 4
+automata{
+    //a)
+    Lift1 = (ground -> Lift1 | up -> L2),
+        L2 = (one -> L2 | down -> Lift1).
+    
+    //b)
+    Rbt = (goUp -> Up | goDown -> Down),
+        Up = (off -> Rbt | goDown -> Down | up -> Up ),
+        Down = (off -> Rbt | down -> Down| goUp -> Up).
+    
+    Lift1RBt = (Lift1 || Rbt).
+    
+    //c)
+    Lift1RAbs = simp(abs((Lift1||Rbt)\{off,goUp,goDown})).
+}
+
+//Question 5
+automata{
+    //a)
+    BridgeTL = (north.green -> BridgeTL | north.tored -> S),
+        S = (south.green -> S | south.tored -> BridgeTL).
+    
+    Car = (green -> enter -> exit -> Car).
+    Br = simp(abs((north:Car || south:Car || BridgeTL)
+\{north.green,north.tored,south.green,south.tored})).
+
+    //b)
+    Light = (north.green -> Light | north.tored -> S2),
+        S2 = (south.green -> S2 | south.tored -> Light).
+    
+    Bridge = (north.enter -> north.exit -> south.enter -> south.exit -> Bridge).
+    
+    BridgeTLSafe = (Light||Bridge).
+    
+    //c)
+    BrSafe = simp(abs((north:Car || south:Car || BridgeTLSafe)
+\{north.green,north.tored,south.green,south.tored})).
+}

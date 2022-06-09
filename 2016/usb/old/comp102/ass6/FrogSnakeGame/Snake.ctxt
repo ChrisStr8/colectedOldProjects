@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ turnRight()
+comment0.text=\n\ Turn\ right\n
+comment1.params=
+comment1.target=void\ turnLeft()
+comment1.text=\n\ Turn\ left\n
+comment2.params=
+comment2.target=void\ turnUp()
+comment2.text=\n\ Turn\ up\n
+comment3.params=
+comment3.target=void\ turnDown()
+comment3.text=\n\ Turn\ down\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\n\ Moves\ the\ frog\:\ \n\ \ \ use\ SPEED\ unit\ forward\ in\ the\ correct\ direction\n\ \ \ by\ changing\ the\ position\ of\ the\ frog.\n\ Make\ sure\ that\ the\ frog\ does\ not\ go\ outside\ the\ arena,\ by\ making\ sure\ \n\ \ -\ the\ top\ of\ the\ frog\ is\ never\ smaller\ than\ FrogGame.TopWall\n\ \ -\ the\ bottom\ of\ the\ frog\ is\ never\ greater\ than\ FrogGame.BotWall\n\ \ -\ the\ left\ of\ the\ frog\ is\ never\ smaller\ than\ FrogGame.LeftWall\n\ \ -\ the\ right\ of\ the\ frog\ is\ never\ smaller\ than\ FrogGame.RightWall\n
+comment5.params=x\ y
+comment5.target=boolean\ touching(double,\ double)
+comment5.text=\n\ Check\ whether\ the\ frog\ is\ touching\ the\ given\ point,\ eg,\ whether\ the\n\ \ \ given\ point\ is\ included\ in\ the\ area\ covered\ by\ the\ frog.\n\ Return\ true\ if\ the\ frog\ is\ on\ the\ top\ of\ the\ position\ (x,\ y)\n\ Return\ false\ otherwise\n
+comment6.params=
+comment6.target=int\ getX()
+comment7.params=
+comment7.target=int\ getY()
+comment8.params=
+comment8.target=void\ draw()
+comment8.text=\n\ Draws\ the\ frog\ at\ the\ current\ position.\n
+numComments=9

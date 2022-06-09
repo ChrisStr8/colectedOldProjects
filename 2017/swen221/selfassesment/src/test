@@ -1,0 +1,96 @@
+final Time24 add1Hour(){
+        int newHours = hours+1;
+        if(newHours>23){
+            return new Time24(seconds, minutes, 0);
+        }
+        return new Time24(seconds, minutes, newHours);
+    }
+
+    final Time24 remove1Hour(){
+        int newHours = hours-1;
+        if(newHours<0){
+            return new Time24(seconds, minutes, 23);
+        }
+        return new Time24(seconds, minutes, newHours);
+    }
+
+    final Time24 add1Minute(){
+        int newMinute = minutes+1;
+        if(newMinute>59){
+            return new Time24(seconds, 0, hours).add1Hour();
+        }
+        return new Time24(seconds, newMinute, hours);
+    }
+
+    final Time24 remove1Minute(){
+        int newMinute = minutes-1;
+        if(newMinute<0){
+            return new Time24(seconds, 59, hours).remove1Hour();
+        }
+        return new Time24(seconds, newMinute, hours);
+    }
+
+    final Time24 add1Second(){
+        int newSecond = seconds+1;
+        if(newSecond>59){
+            return new Time24(0, minutes, hours).add1Minute();
+        }
+        return new Time24(newSecond, minutes, hours);
+    }
+
+    final Time24 remove1Second(){
+        int newSecond = seconds-1;
+        if(newSecond<0){
+            return new Time24(59, minutes, hours).remove1Minute();
+        }
+        return new Time24(newSecond, minutes, hours);
+    }
+
+---------------------------------------------------------------------------------------
+final Time12 add1Hour(){
+        int newHours = hours+1;
+        if(newHours>12){
+            return new Time12(seconds, minutes, 1, !isPm);
+        }
+        return new Time12(seconds, minutes, newHours, isPm);
+    }
+
+    final Time12 remove1Hour(){
+        int newHours = hours-1;
+        if(newHours<1){
+            return new Time12(seconds, minutes, 12, isPm);
+        }
+        return new Time12(seconds, minutes, newHours, isPm);
+    }
+
+    final Time12 add1Minute(){
+        int newMinute = minutes+1;
+        if(newMinute>59){
+            return new Time12(seconds, 0, hours, isPm).add1Hour();
+        }
+        return new Time12(seconds, newMinute, hours, isPm);
+    }
+
+    final Time12 remove1Minute(){
+        int newMinute = minutes-1;
+        if(newMinute<0){
+            return new Time12(seconds, 59, hours, isPm).remove1Hour();
+        }
+        return new Time12(seconds, newMinute, hours, isPm);
+    }
+
+    final Time12 add1Second(){
+        int newSecond = seconds+1;
+        if(newSecond>59){
+            return new Time12(0, minutes, hours, isPm).add1Minute();
+        }
+        return new Time12(newSecond, minutes, hours, isPm);
+    }
+
+    final Time12 remove1Second(){
+        int newSecond = seconds-1;
+        if(newSecond<0){
+            return new Time12(59, minutes, hours, isPm).remove1Minute();
+        }
+        return new Time12(newSecond, minutes, hours, isPm);
+    }

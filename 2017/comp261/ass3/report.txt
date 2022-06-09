@@ -1,0 +1,13 @@
+Functionality
+The program reads the specified shape file and renders the polygons using the 3D rendering
+pipeline.
+Polygons facing away are not drawn.
+The light intensity is calculated for each polygon.
+The an edge list with a z buffer is calculated for each polygon.
+Uses the z buffer and edge list information to draw polygons.
+The user can rotate the view around the scene using the arrow-keys.
+The polygons are rotated an translated to fit the viewing window.
+
+Bugs
+The drawing algorithm sometimes leaves lines not drawn in the polygons.
+Sometimes the monkey shape jumps up and down when rotated.

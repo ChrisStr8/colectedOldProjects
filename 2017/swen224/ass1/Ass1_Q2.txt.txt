@@ -1,0 +1,50 @@
+//QUESTION 1
+automata{
+    Ping = one->three-> STOP.
+    Pong = two->STOP.
+    Opps = Ping||Pong.
+    PingX = one-> x -> y -> three-> STOP.
+    PongX = x -> two-> y -> STOP.
+    Good = simp(abs((PingX||PongX)\{x,y})).
+    
+}
+
+//QUESTION 2
+automata{
+    //a)
+    VMhit = coin -> (coffeeBtn -> coffee -> VMhit | hit -> VMhit).
+
+    //b)
+    VMtc = coin -> (teaBtn -> tea -> VMtc | coin -> coffeeBtn -> coffee -> VMtc).
+
+    //c)
+    VMblack = (Coin | Wb2),
+    
+    Coin = (coin -> (BlackC | BlackT | Wb)),
+    Wb = (wb -> (R | wb -> Wb)),
+    Wb2 = (wb -> (coin -> R | wb -> Wb2)),
+    R = (WhiteC | WhiteT),
+    
+    WhiteC = (coffeeBtn -> whiteCoffee -> VMblack),
+    WhiteT = (teaBtn -> whiteTea -> VMblack),
+    BlackC = (coffeeBtn -> blackCoffee -> VMblack),
+    BlackT = (teaBtn -> blackTea -> VMblack).
+}
+
+//Question 3
+const N = 4
+automata{
+    Buff = B[0],
+        B[i:0..N] = (when i<N in -> B[i+1] |
+                    when 0<i out -> B[i-1]).
+}
+
+//Question 4
+automata{
+    //a)
+    Lift1 = (ground -> Lift1 | up -> L2),
+        L2 = (one -> L2 | down -> Lift1).
+    //b)
+    RBt = ().
+}
+visualiser_json_layout:{"elements":{},"style":[{"selector":"node","style":{"background-color":"#BDC3C7","label":"data(label)","text-valign":"center","text-halign":"center","font-size":"15px","font-weight":"bold","border-width":"3px","width":"label","height":"label","padding":"10px"}},{"selector":"node[type = \"fsaStartState\"]","style":{"border-style":"double","background-color":"#3498DB","border-width":"10px"}},{"selector":"node[type = \"fsaEndState\"]","style":{"border-style":"double","background-color":"#2ECC71","border-width":"10px"}},{"selector":"node[type = \"fsaErrorState\"]","style":{"border-style":"double","background-color":"#C0392b","border-width":"10px"}},{"selector":":parent","style":{"background-opacity":"0.333","text-valign":"top","color":"#000000"}},{"selector":"edge","style":{"width":"3px","line-color":"black","label":"data(label)","curve-style":"bezier","font-size":"15px","font-weight":"bold","target-arrow-color":"black","target-arrow-shape":"triangle","text-background-opacity":"1","text-background-color":"#ffffff","text-background-shape":"rectangle","text-rotation":"autorotate"}}],"zoomingEnabled":true,"userZoomingEnabled":true,"zoom":1,"minZoom":1e-50,"maxZoom":1e+50,"panningEnabled":true,"userPanningEnabled":true,"pan":{"x":0,"y":0},"boxSelectionEnabled":true,"renderer":{"name":"canvas"}}

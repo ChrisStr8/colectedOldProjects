@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=x\ y\ col
+comment0.target=Dot(double,\ double,\ java.awt.Color)
+comment1.params=description
+comment1.target=Dot(java.lang.String)
+comment2.params=u\ v
+comment2.target=boolean\ on(double,\ double)
+comment3.params=dx\ dy
+comment3.target=void\ moveBy(double,\ double)
+comment4.params=
+comment4.target=void\ redraw()
+comment5.params=changeWd\ changeHt
+comment5.target=void\ resize(double,\ double)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
